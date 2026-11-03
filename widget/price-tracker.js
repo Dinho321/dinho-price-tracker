@@ -5,6 +5,7 @@
  *   <script src="https://YOUR-USER.github.io/dinho-price-tracker/widget/price-tracker.js"
  *           data-base="https://YOUR-USER.github.io/dinho-price-tracker/data/" defer></script>
  *
+ * Width: at most 650 px (the article column width, same as a product image) and centered. Override with style="max-width:560px" on the div.
  * Optional on the div: data-base (overrides the script's), data-theme="dark", data-title="custom heading".
  * Data format: see README (data/<slug>.json, points = [isoTime, salePrice, regularPrice, inStock]).
  */
@@ -18,7 +19,7 @@
 
   var CSS = [
     ".dr-pt{--bg:#fff;--bd:#dde3f0;--ink:#0b1030;--ink2:#4a5068;--mut:#6b7186;--grid:#e6e9f2;--line:#2b4bff;--reg:#6b7186;--chip:#f4f8ff;--sel:#0d1566;--selt:#fff;",
-    "box-sizing:border-box;position:relative;min-height:430px;margin:1.5em 0;padding:16px;background:var(--bg);color:var(--ink);border:1px solid var(--bd);border-radius:12px;font:inherit;line-height:1.4}",
+    "box-sizing:border-box;position:relative;min-height:430px;max-width:650px;margin:1.5em auto;padding:16px;background:var(--bg);color:var(--ink);border:1px solid var(--bd);border-radius:12px;font:inherit;line-height:1.4}",
     ".dr-pt[data-theme=dark]{--bg:#0b1030;--bd:#26305f;--ink:#f4f8ff;--ink2:#c3c8e0;--mut:#9aa1c4;--grid:#1d2552;--line:#4a9ef0;--reg:#9aa1c4;--chip:#151c47;--sel:#4a9ef0;--selt:#0b1030}",
     ".dr-pt *{box-sizing:border-box}",
     ".dr-pt__title{margin:0 0 2px;font-size:1rem;font-weight:700}",
