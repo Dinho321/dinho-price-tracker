@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Price history | DinhoReviews</title>
+<meta name="robots" content="noindex">
+<style>
+  body{margin:0;padding:16px;background:#f4f8ff;color:#0b1030;font-family:Manrope,system-ui,-apple-system,"Segoe UI",sans-serif}
+  main{max-width:760px;margin:0 auto}
+  h1{font-size:1.25rem;margin:0 0 4px}
+  p.lead{margin:0 0 12px;color:#4a5068;font-size:.875rem}
+  ul{padding-left:18px}
+  a{color:#2b4bff}
+</style>
+</head>
+<body>
+<main>
+  <h1>Price history</h1>
+  <p class="lead">Daily Best Buy price tracking by DinhoReviews. This page also works inside an iframe: <code>widget/index.html?slug=PRODUCT-SLUG</code></p>
+  <div id="out"></div>
+</main>
+<script>
+(function () {
+  var q = new URLSearchParams(location.search), slug = q.get("slug");
+  var base = q.get("base") || "../data/";
+  var out = document.getElementById("out");
+  function load() {
+    var s = document.createElement("script");
+    s.src = "price-tracker.js"; s.setAttribute("data-base", base); s.defer = true;
+    document.body.appendChild(s);
+  }
+  if (slug) {
+    var d = document.createElement("div");
+    d.className = "dr-pt"; d.setAttribute("data-slug", slug);
+    out.appendChild(d); load();
+  } else {
+    fetch(base + "index.json").then(function (r) { return r.json(); }).then(function (j) {
+      var ul = document.createElement("ul");
+      j.products.forEach(function (p) {
+        var li = document.createElement("li"), a = document.createElement("a");
+        a.href = "?slug=" + encodeURIComponent(p.slug) + (q.get("base") ? "&base=" + encodeURIComponent(q.get("base")) : "");
+        a.textContent = p.name; li.appendChild(a); ul.appendChild(li);
+      });
+      out.appendChild(ul);
+    }).catch(function () { out.textContent = "No tracked products yet."; });
+  }
+})();
+</script>
+</body>
+</html>

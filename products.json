@@ -1,0 +1,10 @@
+{
+  "_help": "One entry per tracked product. slug = id used in the chart embed (lowercase, dashes, never change it later). sku = Best Buy SKU (the number at the end of the product page URL). Entries without a sku are skipped.",
+  "products": [
+    {"slug": "lenovo-loq-15-rtx-5060-16gb-512gb", "sku": "11690400", "name": "Lenovo LOQ 15.3 (Ryzen 7 250, RTX 5060, 16GB/512GB)", "category": "gaming-laptops"},
+    {"slug": "macbook-air-13-m5-16gb-512gb", "sku": null, "name": "Apple MacBook Air 13-inch M5 (16GB/512GB)", "category": "laptops"},
+    {"slug": "macbook-neo-8gb-256gb", "sku": null, "name": "Apple MacBook Neo (8GB/256GB)", "category": "laptops"},
+    {"slug": "hp-omnibook-3-14-oled-16gb-256gb", "sku": null, "name": "HP OmniBook 3 14-inch OLED (16GB/256GB)", "category": "laptops"},
+    {"slug": "lenovo-ideapad-slim-3i-15-16gb-512gb", "sku": null, "name": "Lenovo IdeaPad Slim 3i 15.3-inch (Core 7 350, 16GB/512GB)", "category": "laptops"}
+  ]
+}
