@@ -26,13 +26,13 @@
   var uid = 0;
 
   var CSS = [
-    '.dinho-price .pb-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,21rem);gap:.75rem 1.75rem;align-items:center}',
+    '.dinho-price .pb-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,15rem);gap:.75rem 1.25rem;align-items:center}',
     '@media (max-width:640px){.dinho-price .pb-grid{grid-template-columns:minmax(0,1fr)}}',
     '.dinho-price .pb-name{margin:0 0 .2rem;font-weight:700}',
-    '.dinho-price .pb-price{margin:0;font-family:var(--wp--preset--font-family--orbitron);font-size:2rem;font-weight:700;line-height:1.15;color:var(--wp--preset--color--contrast)}',
+    '.dinho-price .pb-price{margin:0;overflow-wrap:normal;word-break:normal;font-family:var(--wp--preset--font-family--orbitron);font-size:1.75rem;font-weight:700;line-height:1.15;color:var(--wp--preset--color--contrast)}',
     '.dinho-price .pb-price a{color:inherit;text-decoration:none;border-bottom:3px solid #5FEDE6}',
     '.dinho-price .pb-price a:hover{color:var(--wp--preset--color--magenta-dark)}',
-    '.dinho-price .pb-at{margin-left:.5rem;font-family:inherit;font-size:1rem;font-weight:700;color:var(--wp--preset--color--secondary)}',
+    '.dinho-price .pb-at{display:block;margin:.35rem 0 0;font-family:inherit;font-size:1rem;font-weight:700;color:var(--wp--preset--color--secondary);overflow-wrap:normal;word-break:normal}',
     '.dinho-price .pb-line{margin:.4rem 0 0;font-size:.95rem}',
     '.dinho-price .pb-meta{margin:.6rem 0 0;font-size:.8rem;color:#5A6275}',
     '.dinho-price .pb-warn{margin:.5rem 0 0;font-size:.85rem;font-weight:700;color:#C2146F}',
@@ -183,7 +183,7 @@
       v.appendChild(h('span', 'dr-chip', item.value));
       left.appendChild(v);
     }
-    left.appendChild(h('p', 'pb-meta', 'Checked by DinhoReviews on ' + full(item.checked) + '. Prices change.'));
+    left.appendChild(h('p', 'pb-meta', 'Checked by DinhoReviews, ' + full(item.checked) + '. Prices change.'));
     if (stale) left.appendChild(h('p', 'pb-warn', 'Checked more than ' + staleDays + ' days ago: the price may have changed.'));
 
     var right = h('div', 'pb-right');
