@@ -1,21 +1,221 @@
 {
-  "updated": "2026-11-11",
-  "currency": "USD",
-  "region": "US",
-  "products": {
-    "lenovo-loq-15irx10-rtx-5050-16gb-1tb": {
-      "name": "Lenovo LOQ 15IRX10 (83JE0012US), RTX 5050, 16GB / 1TB",
-      "price": 1099.99,
-      "checked": "2026-11-11",
-      "seller": "Lenovo",
-      "url": "https://www.lenovo.com/us/en/search?text=83JE0012US",
-      "value": "fair",
-      "history": [
-        [
-          "2026-11-11",
-          1099.99
-        ]
-      ]
+ "updated": "2026-11-12",
+ "currency": "USD",
+ "region": "US",
+ "products": {
+  "alienware-aw2726dm": {
+   "name": "Alienware AW2726DM",
+   "brand": "Alienware",
+   "category": "monitor",
+   "price": 349.99,
+   "checked": "2026-11-06",
+   "seller": "PCPartPicker",
+   "history": [
+    [
+     "2026-11-06",
+     349.99
+    ]
+   ]
+  },
+  "apple-macbook-air-13-m5-16gb-512gb": {
+   "name": "Apple MacBook Air 13\", M5, 16GB / 512GB",
+   "brand": "Apple",
+   "category": "laptop",
+   "price": 1149.0,
+   "checked": "2026-11-12",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-02",
+     1299.0
+    ],
+    [
+     "2026-11-12",
+     1149.0
+    ]
+   ],
+   "others": [
+    {
+     "seller": "Apple",
+     "price": 1299.0
     }
+   ]
+  },
+  "asus-pg27aqdp": {
+   "name": "ASUS ROG Swift PG27AQDP",
+   "brand": "ASUS",
+   "category": "monitor",
+   "price": 799.0,
+   "checked": "2026-11-06",
+   "seller": "ASUS",
+   "history": [
+    [
+     "2026-11-06",
+     799.0
+    ]
+   ]
+  },
+  "benq-zowie-ec2-cw": {
+   "name": "BenQ Zowie EC2-CW",
+   "brand": "BenQ",
+   "category": "mouse",
+   "price": 149.99,
+   "checked": "2026-11-12",
+   "seller": "Amazon",
+   "history": [
+    [
+     "2026-11-12",
+     149.99
+    ]
+   ]
+  },
+  "gmktec-evo-x2-64gb-1tb": {
+   "name": "GMKtec EVO-X2, 64GB / 1TB",
+   "brand": "GMKtec",
+   "category": "mini-pc",
+   "price": 2199.99,
+   "checked": "2026-11-12",
+   "seller": "GMKtec",
+   "history": [
+    [
+     "2026-11-12",
+     2199.99
+    ]
+   ]
+  },
+  "hyperx-pulsefire-haste-2-wireless": {
+   "name": "HyperX Pulsefire Haste 2 Wireless",
+   "brand": "HyperX",
+   "category": "mouse",
+   "price": 78.99,
+   "checked": "2026-11-12",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-12",
+     78.99
+    ]
+   ]
+  },
+  "lenovo-legion-5-15-oled-rtx-5060-16gb-512gb": {
+   "name": "Lenovo Legion 5 15.1\" OLED, Ryzen 7 260, RTX 5060, 16GB / 512GB",
+   "brand": "Lenovo",
+   "category": "laptop",
+   "price": 1499.99,
+   "checked": "2026-11-12",
+   "seller": "Target",
+   "history": [
+    [
+     "2026-11-11",
+     1499.99
+    ]
+   ],
+   "others": [
+    {
+     "seller": "Best Buy",
+     "price": 1499.99
+    }
+   ]
+  },
+  "lenovo-loq-15irx10-rtx-5050-16gb-1tb": {
+   "name": "Lenovo LOQ 15IRX10 (83JE0012US), RTX 5050, 16GB / 1TB",
+   "brand": "Lenovo",
+   "category": "laptop",
+   "price": 1099.99,
+   "checked": "2026-11-11",
+   "seller": "Lenovo",
+   "history": [
+    [
+     "2026-11-11",
+     1099.99
+    ]
+   ],
+   "url": "https://www.lenovo.com/us/en/search?text=83JE0012US",
+   "value": "fair"
+  },
+  "lg-27gx704a-b": {
+   "name": "LG 27GX704A-B",
+   "brand": "LG",
+   "category": "monitor",
+   "price": 399.99,
+   "checked": "2026-11-06",
+   "seller": "LG",
+   "history": [
+    [
+     "2026-11-06",
+     399.99
+    ]
+   ]
+  },
+  "logitech-g-pro-x-superlight-2": {
+   "name": "Logitech G Pro X Superlight 2",
+   "brand": "Logitech",
+   "category": "mouse",
+   "price": 159.99,
+   "checked": "2026-11-12",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-12",
+     159.99
+    ]
+   ]
+  },
+  "logitech-g305": {
+   "name": "Logitech G305 Lightspeed",
+   "brand": "Logitech",
+   "category": "mouse",
+   "price": 29.99,
+   "checked": "2026-11-12",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-12",
+     29.99
+    ]
+   ]
+  },
+  "minisforum-atomman-g1-pro-rtx-5060-32gb-1tb": {
+   "name": "Minisforum AtomMan G1 Pro, RTX 5060, 32GB / 1TB",
+   "brand": "Minisforum",
+   "category": "mini-pc",
+   "price": 1759.0,
+   "checked": "2026-11-12",
+   "seller": "Minisforum",
+   "history": [
+    [
+     "2026-11-12",
+     1759.0
+    ]
+   ]
+  },
+  "minisforum-um890-pro-32gb-1tb": {
+   "name": "Minisforum UM890 Pro, 32GB / 1TB",
+   "brand": "Minisforum",
+   "category": "mini-pc",
+   "price": 1015.0,
+   "checked": "2026-11-12",
+   "seller": "Minisforum",
+   "history": [
+    [
+     "2026-11-12",
+     1015.0
+    ]
+   ]
+  },
+  "razer-viper-v3-pro": {
+   "name": "Razer Viper V3 Pro",
+   "brand": "Razer",
+   "category": "mouse",
+   "price": 129.99,
+   "checked": "2026-11-12",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-12",
+     129.99
+    ]
+   ]
   }
+ }
 }

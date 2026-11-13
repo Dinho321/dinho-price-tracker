@@ -33,6 +33,15 @@
     '.dinho-price .pb-price a{color:inherit;text-decoration:none;border-bottom:3px solid #5FEDE6}',
     '.dinho-price .pb-price a:hover{color:var(--wp--preset--color--magenta-dark)}',
     '.dinho-price .pb-at{display:block;margin:.35rem 0 0;font-family:inherit;font-size:1rem;font-weight:700;color:var(--wp--preset--color--secondary);overflow-wrap:normal;word-break:normal}',
+    '.dinho-price .pb-row{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;margin:.35rem 0 0;padding-top:.35rem;border-top:1px solid #DCE6FF;font-size:.95rem}',
+    '.dinho-price .pb-row a,.dinho-price .pb-row span{color:inherit;text-decoration:none}',
+    '.dinho-price .pb-row a:hover{color:var(--wp--preset--color--magenta-dark);text-decoration:underline}',
+    '.dinho-price .pb-rn{font-weight:700;color:var(--wp--preset--color--secondary)}',
+    '.dinho-price .pb-rp{font-weight:700;white-space:nowrap}',
+    '.dinho-price .pb-third .pb-rn{font-weight:500;color:#5A6275}',
+    '.dinho-price .pb-main{border-top:0;padding-top:0;align-items:center;margin-top:.1rem}',
+    '.dinho-price .pb-main .pb-rn{font-size:1.1rem}',
+    '.dinho-price .pb-main .pb-rp{font-family:var(--wp--preset--font-family--orbitron);font-size:1.6rem;line-height:1.15;color:var(--wp--preset--color--contrast);border-bottom:3px solid #5FEDE6}',
     '.dinho-price .pb-line{margin:.4rem 0 0;font-size:.95rem}',
     '.dinho-price .pb-meta{margin:.6rem 0 0;font-size:.8rem;color:#5A6275}',
     '.dinho-price .pb-warn{margin:.5rem 0 0;font-size:.85rem;font-weight:700;color:#C2146F}',
@@ -105,22 +114,24 @@
     var pts = hist.map(function (e) { return [X(dnum(e[0])), Y(e[1]), e]; });
     d = 'M' + pts[0][0].toFixed(1) + ' ' + pts[0][1].toFixed(1);
     for (i = 1; i < pts.length; i++) d += ' H' + pts[i][0].toFixed(1) + ' V' + pts[i][1].toFixed(1);
-    var endX = t1 === t0 ? pts[0][0] : X(t1), endY = pts[pts.length - 1][1];
-    var lineEndX = t1 === t0 ? Math.min(pts[0][0] + pw / 2, W - R) : endX;
-    if (t1 === t0) { d = 'M' + Math.max(pts[0][0] - pw / 2, L) + ' ' + endY.toFixed(1); lineEndX = Math.min(pts[0][0] + pw / 2, W - R); }
-    d += ' H' + lineEndX.toFixed(1);
-    var area = d + ' V' + (T + ph) + ' H' + (t1 === t0 ? Math.max(pts[0][0] - pw / 2, L) : pts[0][0].toFixed(1)) + ' Z';
+    var single = t1 === t0;
+    if (single) pts[0][0] = W - R;
+    var endX = single ? W - R : X(t1), endY = pts[pts.length - 1][1];
+    if (single) d = 'M' + L + ' ' + endY.toFixed(1);
+    d += ' H' + endX.toFixed(1);
+    var area = d + ' V' + (T + ph) + ' H' + (single ? L : pts[0][0].toFixed(1)) + ' Z';
     svg.appendChild(s('path', { d: area, fill: 'url(#' + id + ')', stroke: 'none' }));
-    svg.appendChild(s('path', { d: d, fill: 'none', stroke: '#2B4BFF', 'stroke-width': 3, 'stroke-linejoin': 'round', 'stroke-linecap': 'round', 'stroke-dasharray': t1 === t0 ? '2 7' : 'none' }));
+    svg.appendChild(s('path', { d: d, fill: 'none', stroke: '#2B4BFF', 'stroke-width': 3, 'stroke-linejoin': 'round', 'stroke-linecap': 'round', 'stroke-dasharray': single ? '2 7' : 'none' }));
 
     // change points get a small dot with a tooltip
     pts.forEach(function (p) {
+      if (single) return;
       var c = s('circle', { cx: p[0].toFixed(1), cy: p[1].toFixed(1), r: 3.5, fill: '#fff', stroke: '#2B4BFF', 'stroke-width': 1.5 });
       var t = s('title', {}); t.textContent = money(p[2][1]) + ' from ' + full(p[2][0]);
       c.appendChild(t); svg.appendChild(c);
     });
     // current price marker
-    svg.appendChild(s('circle', { cx: (t1 === t0 ? pts[0][0] : endX).toFixed(1), cy: endY.toFixed(1), r: 5.5, fill: '#E6208C', stroke: '#fff', 'stroke-width': 1.5 }));
+    svg.appendChild(s('circle', { cx: endX.toFixed(1), cy: endY.toFixed(1), r: 5.5, fill: '#E6208C', stroke: '#fff', 'stroke-width': 1.5 }));
 
     function label(txt, tx, ty, anchor, fill, weight) {
       var n = s('text', { x: tx, y: ty, 'text-anchor': anchor, 'font-size': 11, 'font-weight': weight, fill: fill });
@@ -134,7 +145,7 @@
       label(money(Math.min.apply(null, prices)), L - 6, T + ph + 3.5, 'end', '#0D1566', 700);
     }
     if (t1 === t0) {
-      label(short(lastDate), L + pw / 2, H - 7, 'middle', '#5A6275', 500);
+      label('Tracked ' + short(lastDate), W - R, H - 7, 'end', '#5A6275', 500);
     } else {
       label(short(hist[0][0]), L, H - 7, 'start', '#5A6275', 500);
       label(short(lastDate), W - R, H - 7, 'end', '#5A6275', 500);
@@ -144,7 +155,7 @@
 
   function caption(item) {
     var hist = (item.history || []).filter(function (e) { return e && dparts(e[0]) && isNum(e[1]); });
-    if (hist.length < 2) return 'Tracking since ' + short(hist.length ? hist[0][0] : item.checked);
+    if (hist.length < 2) return 'One check so far';
     var prev = hist[hist.length - 2], last = hist[hist.length - 1], diff = last[1] - prev[1];
     var amt = money(Math.abs(diff));
     return (diff < 0 ? '▼ Down ' : '▲ Up ') + amt + ' since ' + short(last[0]);
@@ -162,22 +173,27 @@
     var left = h('div', 'pb-left');
     left.appendChild(h('p', 'pb-name', item.name));
 
-    var priceP = h('p', 'pb-price');
-    if (typeof item.url === 'string' && /^https:\/\//i.test(item.url)) {
-      var a = h('a', null, money(item.price)); a.href = item.url; a.rel = 'noopener nofollow'; priceP.appendChild(a);
-    } else { priceP.appendChild(document.createTextNode(money(item.price))); }
-    if (item.seller) priceP.appendChild(h('span', 'pb-at', 'at ' + item.seller));
-    left.appendChild(priceP);
+    function okUrl(u) { return typeof u === 'string' && /^https:\/\//i.test(u); }
+    function link(txt, url, cls) {
+      if (!okUrl(url)) return h('span', cls, txt);
+      var a = h('a', cls, txt); a.href = url; a.rel = 'noopener nofollow'; return a;
+    }
+    function row(cls, name, nameUrl, price, priceUrl) {
+      var r = h('div', cls);
+      r.appendChild(link(name, nameUrl, 'pb-rn'));
+      r.appendChild(link(price, priceUrl, 'pb-rp'));
+      return r;
+    }
+    left.appendChild(row('pb-row pb-main', item.seller || 'Retailer', item.url, money(item.price), item.url));
 
     var others = (item.others || []).filter(function (o) { return o && isNum(o.price); })
       .sort(function (x, y) { return x.price - y.price; });
     var retailers = others.filter(function (o) { return !o.thirdParty; });
     var third = others.filter(function (o) { return o.thirdParty; });
-    if (retailers.length) {
-      left.appendChild(h('p', 'pb-line', 'Also at ' + retailers.slice(0, 2).map(function (o) {
-        return (o.seller || 'another retailer') + ' ' + money(o.price); }).join(' · ')));
-    }
-    if (third.length) left.appendChild(h('p', 'pb-line', 'Third-party sellers from ' + money(third[0].price)));
+    retailers.slice(0, 2).forEach(function (o) {
+      left.appendChild(row('pb-row', o.seller || 'Another retailer', o.url, money(o.price), o.url));
+    });
+    if (third.length) left.appendChild(row('pb-row pb-third', 'Third-party retailers', third[0].url, 'from ' + money(third[0].price), third[0].url));
     if (/^(strong|good|fair|weak)$/.test(item.value || '')) {
       var v = h('p', 'pb-line', 'Value at this price: ');
       v.appendChild(h('span', 'dr-chip', item.value));

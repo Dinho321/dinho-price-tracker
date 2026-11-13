@@ -1,0 +1,26 @@
+date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,url,source,note
+2026-11-11,lenovo-loq-15irx10-rtx-5050-16gb-1tb,lenovo,,retailer,1099.99,yes,new,page,https://www.lenovo.com/us/en/search?text=83JE0012US,"116i, 110h",Lenovo US store search page
+2026-11-03,lenovo-loq-15irx10-rtx-5050-16gb-1tb,bestbuy,,retailer,999.99,unknown,new,snippet,,99-ARCHIVE,"LOQ RTX 5050 listing, 3 Nov Best Buy read; exact config not confirmed same as 83JE0012US"
+2026-11-11,lenovo-legion-5-15-oled-rtx-5060-16gb-512gb,target,,retailer,1499.99,yes,new,page,,110m,Target A-1004661132
+2026-11-12,lenovo-legion-5-15-oled-rtx-5060-16gb-512gb,bestbuy,,retailer,1499.99,yes,new,page,,116j,Legion 5 15.1 OLED
+2026-11-11,gigabyte-aero-x16-rtx-5070,bestbuy,,retailer,1499.99,yes,new,tracker,,110c,
+2026-11-11,gigabyte-gaming-a16-rtx-5050,walmart,,retailer,1039,yes,new,tracker,,110c,
+2026-11-11,hp-victus-15-rtx-5050,bh,,retailer,1199.99,yes,new,tracker,,110c,
+2026-11-11,msi-vector-16-rtx-5070-ti,newegg,,retailer,1599,yes,new,tracker,,110c,
+2026-11-12,apple-macbook-air-13-m5-16gb-512gb,bestbuy,,retailer,1149,yes,new,page,,116j,
+2026-11-02,apple-macbook-air-13-m5-16gb-512gb,apple,,retailer,1299,yes,new,page,,116 (2 Nov read),
+2026-11-02,apple-macbook-air-13-m5-16gb-512gb,bestbuy,,retailer,1299,yes,new,page,,116 (2 Nov read),
+2026-11-12,minisforum-um890-pro-32gb-1tb,minisforum,,retailer,1015,yes,new,page,,112g,regular 1269
+2026-11-12,minisforum-um890-pro-32gb-1tb,bestbuy,,retailer,899.99,yes,new,snippet,,112d,"lead, not verified"
+2026-11-12,minisforum-um890-pro-32gb-1tb,target,,retailer,999.99,yes,new,snippet,,112d,"lead, not verified"
+2026-11-12,minisforum-atomman-g1-pro-rtx-5060-32gb-1tb,minisforum,,retailer,1759,yes,new,page,,112g,
+2026-11-12,gmktec-evo-x2-64gb-1tb,gmktec,,retailer,2199.99,yes,new,page,,112g,
+2026-11-12,logitech-g305,bestbuy,,retailer,29.99,yes,new,owner,,116d,
+2026-11-12,hyperx-pulsefire-haste-2-wireless,bestbuy,,retailer,78.99,yes,new,owner,,116d,
+2026-11-12,razer-viper-v3-pro,bestbuy,,retailer,129.99,yes,new,owner,,116d,
+2026-11-12,logitech-g-pro-x-superlight-2,bestbuy,,retailer,159.99,yes,new,owner,,116d,
+2026-11-12,benq-zowie-ec2-cw,amazon,,retailer,149.99,yes,new,owner,,116d,
+2026-11-06,alienware-aw2726dm,pcpartpicker,,retailer,349.99,yes,new,page,,92,
+2026-11-06,lg-27gx704a-b,lg,,retailer,399.99,yes,new,page,,92,
+2026-11-06,asus-pg27aqdp,asus,,retailer,799,yes,new,page,,93,maker price
+2026-11-06,asus-pg27aqdp,walmart,,retailer,998,yes,new,snippet,,92,"per Tom's, not read"

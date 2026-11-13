@@ -1,11 +1,8 @@
-# DinhoReviews price box
+# Price box and price database
 
-Compact "Price check" box with a small price-history chart, used at the end of the review part of articles.
-Prices live only here, in `data/prices.json`; articles carry a small static fallback.
-Own checks only (no API, no affiliate links, no copied third-party data). History starts the day a model is first checked.
-
-- `widget/price-box.js` loads the box (no cookies, no storage, one fetch of `data/prices.json`)
-- `data/prices.json` the data (USD, US)
-- `tools/prices_tool.py` set / snippet / stale / validate (run with `python3 -I`)
-
-The older folders of this repository (Best Buy API collector, chart) are not used by the box.
+Data (CSV, source of truth): `data/products.csv`, `data/retailers.csv`, `data/observations.csv` (append-only).
+`data/prices.json` and `data/report.md` are generated: `python3 -I price-box/tools/pricedb.py build`.
+Add a price: `pricedb.py add --date 2026-11-13 --product ID --retailer lenovo --price 999.99 --url https://... --source FILE`.
+Other commands: `find`, `show`, `stale`, `snippet`, `validate`. Only quality `page` or `owner` feeds the website.
+Main retailer rule: official store if within 5% of the lowest, else a store within 3%, else the lowest.
+Widget: `widget/price-box.js` (box per `.dinho-price[data-model]`).

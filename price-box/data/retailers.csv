@@ -1,0 +1,16 @@
+retailer_id,name,display,kind,domain
+lenovo,Lenovo,Lenovo,official,lenovo.com
+bestbuy,Best Buy,Best Buy,major,bestbuy.com
+amazon,Amazon,Amazon,major,amazon.com
+target,Target,Target,major,target.com
+walmart,Walmart,Walmart,major,walmart.com
+newegg,Newegg,Newegg,major,newegg.com
+bh,B&H,B&H,major,bhphotovideo.com
+apple,Apple,Apple,official,apple.com
+acer,Acer,Acer,official,acer.com
+minisforum,Minisforum,Minisforum,official,minisforum.com
+gmktec,GMKtec,GMKtec,official,gmktec.com
+lg,LG,LG,official,lg.com
+asus,ASUS,ASUS,official,asus.com
+pcpartpicker,PCPartPicker,PCPartPicker,aggregator,pcpartpicker.com
+gaminglaptopdeals,gaminglaptop.deals,gaminglaptop.deals,aggregator,gaminglaptop.deals
