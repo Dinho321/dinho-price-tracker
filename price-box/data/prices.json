@@ -1,0 +1,21 @@
+{
+  "updated": "2026-11-11",
+  "currency": "USD",
+  "region": "US",
+  "products": {
+    "lenovo-loq-15irx10-rtx-5050-16gb-1tb": {
+      "name": "Lenovo LOQ 15IRX10 (83JE0012US), RTX 5050, 16GB / 1TB",
+      "price": 1099.99,
+      "checked": "2026-11-11",
+      "seller": "Lenovo",
+      "url": "https://www.lenovo.com/us/en/search?text=83JE0012US",
+      "value": "fair",
+      "history": [
+        [
+          "2026-11-11",
+          1099.99
+        ]
+      ]
+    }
+  }
+}
