@@ -106,12 +106,12 @@
     d = 'M' + pts[0][0].toFixed(1) + ' ' + pts[0][1].toFixed(1);
     for (i = 1; i < pts.length; i++) d += ' H' + pts[i][0].toFixed(1) + ' V' + pts[i][1].toFixed(1);
     var endX = t1 === t0 ? pts[0][0] : X(t1), endY = pts[pts.length - 1][1];
-    var lineEndX = t1 === t0 ? Math.min(pts[0][0] + 28, W - R) : endX;
-    if (t1 === t0) { d = 'M' + Math.max(pts[0][0] - 28, L) + ' ' + endY.toFixed(1); lineEndX = Math.min(pts[0][0] + 28, W - R); }
+    var lineEndX = t1 === t0 ? Math.min(pts[0][0] + pw / 2, W - R) : endX;
+    if (t1 === t0) { d = 'M' + Math.max(pts[0][0] - pw / 2, L) + ' ' + endY.toFixed(1); lineEndX = Math.min(pts[0][0] + pw / 2, W - R); }
     d += ' H' + lineEndX.toFixed(1);
-    var area = d + ' V' + (T + ph) + ' H' + (t1 === t0 ? Math.max(pts[0][0] - 28, L) : pts[0][0].toFixed(1)) + ' Z';
+    var area = d + ' V' + (T + ph) + ' H' + (t1 === t0 ? Math.max(pts[0][0] - pw / 2, L) : pts[0][0].toFixed(1)) + ' Z';
     svg.appendChild(s('path', { d: area, fill: 'url(#' + id + ')', stroke: 'none' }));
-    svg.appendChild(s('path', { d: d, fill: 'none', stroke: '#2B4BFF', 'stroke-width': 3, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }));
+    svg.appendChild(s('path', { d: d, fill: 'none', stroke: '#2B4BFF', 'stroke-width': 3, 'stroke-linejoin': 'round', 'stroke-linecap': 'round', 'stroke-dasharray': t1 === t0 ? '2 7' : 'none' }));
 
     // change points get a small dot with a tooltip
     pts.forEach(function (p) {
