@@ -259,8 +259,8 @@ def main():
         price = fmt(c["price"])
         a_ = f'<a href="{html.escape(c["url"], quote=True)}">{html.escape(c["seller"])}</a>' if c.get("url") else html.escape(c["seller"])
         pa = f'<a href="{html.escape(c["url"], quote=True)}">{price}</a>' if c.get("url") else price
-        print('<!-- wp:html -->\n<div class="dr-highlight dr-highlight--price dinho-price" data-model="%s"><p class="dr-highlight__title">Price check · %s</p><p>%s: %s %s, checked %s.</p></div>\n<script src="https://dinho321.github.io/dinho-price-tracker/price-box/widget/price-box.js" defer></script>\n<!-- /wp:html -->'
-              % (args.product, fdate(c["checked"]), html.escape(c["name"]), a_, pa, fdate(c["checked"])))
+        print('<!-- wp:html -->\n<div class="dr-highlight dr-highlight--price dinho-price" data-model="%s"><p class="dr-highlight__title">Price check</p><p>%s: %s %s, checked %s.</p></div>\n<script src="https://dinho321.github.io/dinho-price-tracker/price-box/widget/price-box.js" defer></script>\n<!-- /wp:html -->'
+              % (args.product, html.escape(c["name"]), a_, pa, fdate(c["checked"])))
 
 
 if __name__ == "__main__":

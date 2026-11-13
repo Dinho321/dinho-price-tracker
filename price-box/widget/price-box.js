@@ -155,7 +155,7 @@
 
   function caption(item) {
     var hist = (item.history || []).filter(function (e) { return e && dparts(e[0]) && isNum(e[1]); });
-    if (hist.length < 2) return 'One check so far';
+    if (hist.length < 2) return '';
     var prev = hist[hist.length - 2], last = hist[hist.length - 1], diff = last[1] - prev[1];
     var amt = money(Math.abs(diff));
     return (diff < 0 ? '▼ Down ' : '▲ Up ') + amt + ' since ' + short(last[0]);
@@ -169,7 +169,7 @@
       var st = document.createElement('style'); st.id = 'dinho-pb-css'; st.textContent = CSS; document.head.appendChild(st);
     }
 
-    var title = h('p', 'dr-highlight__title', 'Price check · ' + full(item.checked));
+    var title = h('p', 'dr-highlight__title', 'Price check');
     var left = h('div', 'pb-left');
     left.appendChild(h('p', 'pb-name', item.name));
 
@@ -199,12 +199,12 @@
       v.appendChild(h('span', 'dr-chip', item.value));
       left.appendChild(v);
     }
-    left.appendChild(h('p', 'pb-meta', 'Checked by DinhoReviews, ' + full(item.checked) + '. Prices change.'));
+    left.appendChild(h('p', 'pb-meta', 'Checked by DinhoReviews. Prices change.'));
     if (stale) left.appendChild(h('p', 'pb-warn', 'Checked more than ' + staleDays + ' days ago: the price may have changed.'));
 
     var right = h('div', 'pb-right');
     right.appendChild(buildChart(item, item.checked));
-    right.appendChild(h('p', 'pb-cap', caption(item)));
+    var cap = caption(item); if (cap) right.appendChild(h('p', 'pb-cap', cap));
 
     var grid = h('div', 'pb-grid'); grid.appendChild(left); grid.appendChild(right);
     while (box.firstChild) box.removeChild(box.firstChild);
