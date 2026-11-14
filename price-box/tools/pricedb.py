@@ -225,6 +225,9 @@ def main():
     s = sub.add_parser("show"); s.add_argument("product")
     st = sub.add_parser("stale"); st.add_argument("days", nargs="?", type=int, default=7)
     sn = sub.add_parser("snippet"); sn.add_argument("product")
+    bs = sub.add_parser("bars"); bs.add_argument("products", help="comma-separated product ids")
+    bs.add_argument("--labels", default="", help="short names separated by |, same order as products")
+    bs.add_argument("--kind", default="model", help="word used in the caption, e.g. 'gaming laptop'")
     args = ap.parse_args()
 
     if args.cmd == "build": build()
@@ -261,6 +264,29 @@ def main():
         pa = f'<a href="{html.escape(c["url"], quote=True)}">{price}</a>' if c.get("url") else price
         print('<!-- wp:html -->\n<div class="dr-highlight dr-highlight--price dinho-price" data-model="%s"><p class="dr-highlight__title">Price check</p><p>%s: %s %s, checked %s.</p></div>\n<script src="https://dinho321.github.io/dinho-price-tracker/price-box/widget/price-box.js" defer></script>\n<!-- /wp:html -->'
               % (args.product, html.escape(c["name"]), a_, pa, fdate(c["checked"])))
+    elif args.cmd == "bars":
+        j = json.load(open(OUT, encoding="utf-8"))["products"]
+        ids = [x.strip() for x in args.products.split(",") if x.strip()]
+        labels = [x.strip() for x in args.labels.split("|")] if args.labels else []
+        items = []
+        for i, pid in enumerate(ids):
+            c = j.get(pid)
+            if not c:
+                print(f"no usable price for {pid}: left out of the fallback list", file=sys.stderr)
+                continue
+            items.append((c["price"], labels[i] if i < len(labels) and labels[i] else c["name"], c))
+        items.sort(key=lambda t: t[0])
+        lis = []
+        for price, lab, c in items:
+            amount = f'<a href="{html.escape(c["url"], quote=True)}">{fmt(price)}</a>' if c.get("url") else fmt(price)
+            lis.append(f'<li>{html.escape(lab)}: {amount} at {html.escape(c["seller"])}</li>')
+        attrs = f'data-models="{html.escape(",".join(ids), quote=True)}"'
+        if args.labels: attrs += f' data-labels="{html.escape(args.labels, quote=True)}"'
+        attrs += f' data-kind="{html.escape(args.kind, quote=True)}"'
+        print("<!-- wp:html -->")
+        print(f'<div class="dr-highlight dr-highlight--price dinho-pricebars" {attrs}><p class="dr-highlight__title">Price comparison</p><ul>{"".join(lis)}</ul></div>')
+        print('<script src="https://dinho321.github.io/dinho-price-tracker/price-box/widget/price-bars.js" defer></script>')
+        print("<!-- /wp:html -->")
 
 
 if __name__ == "__main__":

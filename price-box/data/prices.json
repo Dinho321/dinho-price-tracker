@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-12",
+ "updated": "2026-11-14",
  "currency": "USD",
  "region": "US",
  "products": {
@@ -102,7 +102,7 @@
    "brand": "Lenovo",
    "category": "laptop",
    "price": 1499.99,
-   "checked": "2026-11-12",
+   "checked": "2026-11-14",
    "seller": "Target",
    "history": [
     [
@@ -113,9 +113,25 @@
    "others": [
     {
      "seller": "Best Buy",
-     "price": 1499.99
+     "price": 1499.99,
+     "url": "https://www.bestbuy.com/product/x/JJGSH3YTSJ"
     }
    ]
+  },
+  "lenovo-loq-15ahp11-rtx-5060-r7-250-16gb-512gb": {
+   "name": "Lenovo LOQ 15AHP11 (15.3 inch), Ryzen 7 250, RTX 5060, 16GB / 512GB",
+   "brand": "Lenovo",
+   "category": "laptop",
+   "price": 1149.99,
+   "checked": "2026-11-14",
+   "seller": "antonline",
+   "history": [
+    [
+     "2026-11-14",
+     1149.99
+    ]
+   ],
+   "url": "https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd/JJGH3RXTSH"
   },
   "lenovo-loq-15irx10-rtx-5050-16gb-1tb": {
    "name": "Lenovo LOQ 15IRX10 (83JE0012US), RTX 5050, 16GB / 1TB",

@@ -24,3 +24,5 @@ date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,
 2026-11-06,lg-27gx704a-b,lg,,retailer,399.99,yes,new,page,,92,
 2026-11-06,asus-pg27aqdp,asus,,retailer,799,yes,new,page,,93,maker price
 2026-11-06,asus-pg27aqdp,walmart,,retailer,998,yes,new,snippet,,92,"per Tom's, not read"
+2026-11-14,lenovo-loq-15ahp11-rtx-5060-r7-250-16gb-512gb,bestbuy,antonline,third_party,1149.99,yes,new,page,https://www.bestbuy.com/product/lenovo-loq-15-3-wuxga-ips-165hz-ai-powered-gaming-notebook-amd-ryzen-7-250-16gb-ram-512gb-ssd/JJGH3RXTSH,127 pilot 14 Nov,"Best Buy marketplace seller antonline (page JSON-LD); 15.3 inch WUXGA 165Hz, Lenovo PSREF 15AHP11"
+2026-11-14,lenovo-legion-5-15-oled-rtx-5060-16gb-512gb,bestbuy,,retailer,1499.99,yes,new,page,https://www.bestbuy.com/product/x/JJGSH3YTSJ,127 pilot 14 Nov,"Best Buy page, in stock, 15.1 inch OLED; no seller named on page"
