@@ -1,14 +1,13 @@
 # Price database report (generated 2026-11-14)
 
-Products: 52 · with a usable price: 27 · observations: 61
+Products: 52 · with a usable price: 28 · observations: 61
 
-## No usable price (only snippets, out of stock or no data) (25)
+## No usable price (only snippets, out of stock or no data) (24)
 - acer-nitro-v-16-rtx-5050-core7-240h-16gb-512gb
 - acer-nitro-v-16-rtx-5060-core7-240h-16gb-512gb
 - acer-nitro-v-16s-ai-anv16s-41-r2aj-rtx-5060-32gb-1tb
 - alienware-15-rtx-4050-core7-240h-16gb-512gb
 - alienware-15-rtx-5050-r7-260-16gb-1tb
-- asus-rog-xbox-ally-x-24gb-1tb
 - asus-tuf-gaming-f16-fx608jhr-es73-rtx-5050-16gb-512gb
 - gigabyte-aero-x16-rtx-5060-ai7-350-32gb-1tb
 - gigabyte-gaming-a16-rtx-4050-i7-13620h-16gb-512gb

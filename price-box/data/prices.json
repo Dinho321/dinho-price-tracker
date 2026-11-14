@@ -123,6 +123,21 @@
     ]
    ]
   },
+  "asus-rog-xbox-ally-x-24gb-1tb": {
+   "name": "ROG Xbox Ally X, Ryzen AI Z2 Extreme, 24GB / 1TB",
+   "brand": "ASUS",
+   "category": "handheld",
+   "price": 999.99,
+   "checked": "2026-11-14",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-14",
+     999.99
+    ]
+   ],
+   "url": "https://www.bestbuy.com/product/rog-xbox-ally-x-7-fhd-120hz-gaming-handheld-3-month-xbox-game-pass-premium-amd-ryzen-ai-z2-extreme-24gb-ram-1tb-ssd/JJGHGPLVHW"
+  },
   "asus-tuf-gaming-a16-rtx-5070-r9-8940hx-16gb-512gb": {
    "name": "ASUS TUF Gaming A16, Ryzen 9 8940HX, RTX 5070, 16GB / 512GB",
    "brand": "ASUS",
