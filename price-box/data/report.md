@@ -1,6 +1,6 @@
 # Price database report (generated 2026-11-14)
 
-Products: 44 · with a usable price: 22 · observations: 35
+Products: 44 · with a usable price: 22 · observations: 38
 
 ## No usable price (only snippets, out of stock or no data) (22)
 - acer-nitro-v-16-rtx-5050-core7-240h-16gb-512gb
@@ -26,9 +26,8 @@ Products: 44 · with a usable price: 22 · observations: 35
 - lenovo-loq-e-15-rtx-4050-r7-7735hs-16gb-512gb
 - msi-vector-16-rtx-5070-ti
 
-## Main retailer without a product URL (box cannot link) (12)
+## Main retailer without a product URL (box cannot link) (11)
 - alienware-aw2726dm (main: PCPartPicker)
-- apple-macbook-air-13-m5-16gb-512gb (main: Best Buy)
 - asus-pg27aqdp (main: ASUS)
 - benq-zowie-ec2-cw (main: Amazon)
 - gmktec-evo-x2-64gb-1tb (main: GMKtec)

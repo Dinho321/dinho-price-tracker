@@ -21,16 +21,23 @@
    "name": "Apple MacBook Air 13 inch, M5, 16GB / 1TB",
    "brand": "Apple",
    "category": "laptop",
-   "price": 1599.0,
+   "price": 1449.0,
    "checked": "2026-11-14",
-   "seller": "Apple",
+   "seller": "Best Buy",
    "history": [
     [
      "2026-11-14",
-     1599.0
+     1449.0
     ]
    ],
-   "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch-starlight-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-1tb-storage"
+   "url": "https://www.bestbuy.com/product/x/JJGCQLK3C7",
+   "others": [
+    {
+     "seller": "Apple",
+     "price": 1599.0,
+     "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch-starlight-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-1tb-storage"
+    }
+   ]
   },
   "apple-macbook-air-13-m5-16gb-512gb": {
    "name": "Apple MacBook Air 13\", M5, 16GB / 512GB",
@@ -49,6 +56,7 @@
      1149.0
     ]
    ],
+   "url": "https://www.bestbuy.com/product/x/JJGCQLKXL7",
    "others": [
     {
      "seller": "Apple",
@@ -61,16 +69,23 @@
    "name": "Apple MacBook Air 13 inch, M5, 24GB / 1TB",
    "brand": "Apple",
    "category": "laptop",
-   "price": 1799.0,
+   "price": 1649.0,
    "checked": "2026-11-14",
-   "seller": "Apple",
+   "seller": "Best Buy",
    "history": [
     [
      "2026-11-14",
-     1799.0
+     1649.0
     ]
    ],
-   "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch-starlight-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-1tb-storage"
+   "url": "https://www.bestbuy.com/product/x/JJGCQLK3Z4",
+   "others": [
+    {
+     "seller": "Apple",
+     "price": 1799.0,
+     "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch-starlight-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-1tb-storage"
+    }
+   ]
   },
   "apple-macbook-neo-a18-pro-8gb-256gb": {
    "name": "Apple MacBook Neo, A18 Pro, 8GB / 256GB",
