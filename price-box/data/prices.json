@@ -180,14 +180,15 @@
    "brand": "GMKtec",
    "category": "mini-pc",
    "price": 2199.99,
-   "checked": "2026-11-12",
+   "checked": "2026-11-14",
    "seller": "GMKtec",
    "history": [
     [
      "2026-11-12",
      2199.99
     ]
-   ]
+   ],
+   "url": "https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc"
   },
   "hp-omnibook-3-14-snapdragon-x-16gb-256gb": {
    "name": "HP OmniBook 3 14 inch 2K OLED, Snapdragon X, 16GB / 256GB",
@@ -317,14 +318,15 @@
    "brand": "Minisforum",
    "category": "mini-pc",
    "price": 1759.0,
-   "checked": "2026-11-12",
+   "checked": "2026-11-14",
    "seller": "Minisforum",
    "history": [
     [
      "2026-11-12",
      1759.0
     ]
-   ]
+   ],
+   "url": "https://store.minisforum.com/products/minisforum-g1-pro-gaming-pc"
   },
   "minisforum-um890-pro-32gb-1tb": {
    "name": "Minisforum UM890 Pro, 32GB / 1TB",

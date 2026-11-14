@@ -1,6 +1,6 @@
 # Price database report (generated 2026-11-14)
 
-Products: 49 · with a usable price: 24 · observations: 43
+Products: 49 · with a usable price: 24 · observations: 46
 
 ## No usable price (only snippets, out of stock or no data) (25)
 - acer-nitro-v-16-rtx-5050-core7-240h-16gb-512gb
@@ -29,16 +29,14 @@ Products: 49 · with a usable price: 24 · observations: 43
 - steam-deck-oled-1tb-refurbished
 - steam-deck-oled-512gb-refurbished
 
-## Main retailer without a product URL (box cannot link) (11)
+## Main retailer without a product URL (box cannot link) (9)
 - alienware-aw2726dm (main: PCPartPicker)
 - asus-pg27aqdp (main: ASUS)
 - benq-zowie-ec2-cw (main: Amazon)
-- gmktec-evo-x2-64gb-1tb (main: GMKtec)
 - hyperx-pulsefire-haste-2-wireless (main: Best Buy)
 - lg-27gx704a-b (main: LG)
 - logitech-g-pro-x-superlight-2 (main: Best Buy)
 - logitech-g305 (main: Best Buy)
-- minisforum-atomman-g1-pro-rtx-5060-32gb-1tb (main: Minisforum)
 - minisforum-um890-pro-32gb-1tb (main: Minisforum)
 - razer-viper-v3-pro (main: Best Buy)
 

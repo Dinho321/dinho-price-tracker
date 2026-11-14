@@ -42,3 +42,6 @@ date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,
 2026-11-14,steam-deck-oled-512gb-refurbished,steam,,retailer,629,no,refurbished,page,https://store.steampowered.com/sale/steamdeckrefurbished,130,"Valve Certified Refurbished, out of stock"
 2026-11-14,steam-deck-oled-1tb-refurbished,steam,,retailer,759,no,refurbished,page,https://store.steampowered.com/sale/steamdeckrefurbished,130,"Valve Certified Refurbished, out of stock"
 2026-11-14,asus-rog-xbox-ally-x-24gb-1tb,bestbuy,,retailer,999.99,yes,new,snippet,,130,Best Buy search page 14 Nov; product page not yet read
+2026-11-14,minisforum-um890-pro-32gb-1tb,minisforum,,retailer,1015,no,new,page,https://store.minisforum.com/products/minisforum-um890pro-mini-pc,130,Maker store 14 Nov; was 1269; 20% off; config OUT of stock
+2026-11-14,minisforum-atomman-g1-pro-rtx-5060-32gb-1tb,minisforum,,retailer,1759,yes,new,page,https://store.minisforum.com/products/minisforum-g1-pro-gaming-pc,130,Maker store 14 Nov; was 2199; 20% off
+2026-11-14,gmktec-evo-x2-64gb-1tb,gmktec,,retailer,2199.99,yes,new,page,https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc,130,Maker store 14 Nov; was 2599.99; 15% off
