@@ -356,6 +356,112 @@
     ]
    ]
   },
+  "samsung-9100-pro-2tb": {
+   "name": "Samsung 9100 PRO 2TB (MZ-VAP2T0BAM)",
+   "brand": "Samsung",
+   "category": "ssd",
+   "price": 399.99,
+   "checked": "2026-11-14",
+   "seller": "Amazon",
+   "history": [
+    [
+     "2026-11-14",
+     399.99
+    ]
+   ],
+   "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam",
+   "others": [
+    {
+     "seller": "B&H",
+     "price": 399.99,
+     "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam"
+    },
+    {
+     "seller": "Best Buy",
+     "price": 399.99,
+     "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam"
+    },
+    {
+     "seller": "Newegg",
+     "price": 399.99,
+     "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam"
+    },
+    {
+     "seller": "Samsung",
+     "price": 679.99,
+     "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam"
+    }
+   ]
+  },
+  "samsung-990-evo-plus-2tb": {
+   "name": "Samsung 990 EVO Plus 2TB (MZ-V9S2T0BW)",
+   "brand": "Samsung",
+   "category": "ssd",
+   "price": 362.0,
+   "checked": "2026-11-14",
+   "seller": "Amazon",
+   "history": [
+    [
+     "2026-11-14",
+     362.0
+    ]
+   ],
+   "url": "https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw",
+   "others": [
+    {
+     "seller": "Newegg",
+     "price": 365.99,
+     "url": "https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw"
+    },
+    {
+     "seller": "B&H",
+     "price": 579.99,
+     "url": "https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw"
+    },
+    {
+     "seller": "Best Buy",
+     "price": 579.99,
+     "url": "https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw"
+    }
+   ]
+  },
+  "samsung-990-pro-2tb": {
+   "name": "Samsung 990 PRO 2TB (MZ-V9P2T0BW)",
+   "brand": "Samsung",
+   "category": "ssd",
+   "price": 389.99,
+   "checked": "2026-11-14",
+   "seller": "Amazon",
+   "history": [
+    [
+     "2026-11-14",
+     389.99
+    ]
+   ],
+   "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw",
+   "others": [
+    {
+     "seller": "B&H",
+     "price": 389.99,
+     "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+    },
+    {
+     "seller": "Best Buy",
+     "price": 389.99,
+     "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+    },
+    {
+     "seller": "Newegg",
+     "price": 389.99,
+     "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+    },
+    {
+     "seller": "Samsung",
+     "price": 639.99,
+     "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+    }
+   ]
+  },
   "steam-deck-oled-1tb": {
    "name": "Steam Deck OLED, 1TB",
    "brand": "Valve",

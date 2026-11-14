@@ -1,6 +1,6 @@
 # Price database report (generated 2026-11-14)
 
-Products: 49 · with a usable price: 24 · observations: 46
+Products: 52 · with a usable price: 27 · observations: 60
 
 ## No usable price (only snippets, out of stock or no data) (25)
 - acer-nitro-v-16-rtx-5050-core7-240h-16gb-512gb
