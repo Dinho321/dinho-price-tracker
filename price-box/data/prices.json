@@ -353,6 +353,36 @@
      129.99
     ]
    ]
+  },
+  "steam-deck-oled-1tb": {
+   "name": "Steam Deck OLED, 1TB",
+   "brand": "Valve",
+   "category": "handheld",
+   "price": 949.0,
+   "checked": "2026-11-14",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-14",
+     949.0
+    ]
+   ],
+   "url": "https://store.steampowered.com/steamdeck"
+  },
+  "steam-deck-oled-512gb": {
+   "name": "Steam Deck OLED, 512GB",
+   "brand": "Valve",
+   "category": "handheld",
+   "price": 789.0,
+   "checked": "2026-11-14",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-14",
+     789.0
+    ]
+   ],
+   "url": "https://store.steampowered.com/steamdeck"
   }
  }
 }

@@ -37,3 +37,8 @@ date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,
 2026-11-14,apple-macbook-air-13-m5-16gb-512gb,bestbuy,,retailer,1149,yes,new,page,https://www.bestbuy.com/product/x/JJGCQLKXL7,127 rollout 14 Nov,"Best Buy page, was 1299, add to cart"
 2026-11-14,apple-macbook-air-13-m5-16gb-1tb,bestbuy,,retailer,1449,yes,new,page,https://www.bestbuy.com/product/x/JJGCQLK3C7,127 rollout 14 Nov,"Best Buy page, was 1599, add to cart"
 2026-11-14,apple-macbook-air-13-m5-24gb-1tb,bestbuy,,retailer,1649,yes,new,page,https://www.bestbuy.com/product/x/JJGCQLK3Z4,127 rollout 14 Nov,"Best Buy page, was 1799, add to cart"
+2026-11-14,steam-deck-oled-512gb,steam,,retailer,789,yes,new,page,https://store.steampowered.com/steamdeck,130,"Steam US store, read in Chrome"
+2026-11-14,steam-deck-oled-1tb,steam,,retailer,949,yes,new,page,https://store.steampowered.com/steamdeck,130,"Steam US store, read in Chrome"
+2026-11-14,steam-deck-oled-512gb-refurbished,steam,,retailer,629,no,refurbished,page,https://store.steampowered.com/sale/steamdeckrefurbished,130,"Valve Certified Refurbished, out of stock"
+2026-11-14,steam-deck-oled-1tb-refurbished,steam,,retailer,759,no,refurbished,page,https://store.steampowered.com/sale/steamdeckrefurbished,130,"Valve Certified Refurbished, out of stock"
+2026-11-14,asus-rog-xbox-ally-x-24gb-1tb,bestbuy,,retailer,999.99,yes,new,snippet,,130,Best Buy search page 14 Nov; product page not yet read
