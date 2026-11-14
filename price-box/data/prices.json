@@ -103,18 +103,18 @@
    "category": "laptop",
    "price": 1499.99,
    "checked": "2026-11-14",
-   "seller": "Target",
+   "seller": "Best Buy",
    "history": [
     [
      "2026-11-11",
      1499.99
     ]
    ],
+   "url": "https://www.bestbuy.com/product/x/JJGSH3YTSJ",
    "others": [
     {
-     "seller": "Best Buy",
-     "price": 1499.99,
-     "url": "https://www.bestbuy.com/product/x/JJGSH3YTSJ"
+     "seller": "Target",
+     "price": 1499.99
     }
    ]
   },

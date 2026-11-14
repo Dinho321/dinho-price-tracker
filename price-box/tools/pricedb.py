@@ -81,17 +81,19 @@ def latest_as_of(obs, d, window):
 def pick_main(cands, ret):
     """official store if within tolerance of the lowest, else a store within a smaller tolerance, else the lowest"""
     price = lambda o: float(o["price"])
-    low = min(cands, key=price)
+    # equal prices: prefer a row with a product URL, then the newer read
+    tie = lambda o: (float(o["price"]), 0 if o["url"] else 1, -dt.date.fromisoformat(o["date"]).toordinal())
+    low = min(cands, key=tie)
     stores = [o for o in cands if o["seller_kind"] != "third_party"]
     if not stores:
         return low
     lp = price(low)
     off = [o for o in stores if ret[o["retailer_id"]]["kind"] == "official"]
     if off:
-        c = min(off, key=price)
+        c = min(off, key=tie)
         if price(c) <= lp * (1 + CFG["official_tolerance"]):
             return c
-    c = min(stores, key=price)
+    c = min(stores, key=tie)
     if price(c) <= lp * (1 + CFG["retailer_tolerance"]):
         return c
     return low

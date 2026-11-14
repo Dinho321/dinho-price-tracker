@@ -33,14 +33,13 @@ Products: 44 · with a usable price: 15 · observations: 27
 - lenovo-loq-e-15-rtx-4050-r7-7735hs-16gb-512gb
 - msi-vector-16-rtx-5070-ti
 
-## Main retailer without a product URL (box cannot link) (13)
+## Main retailer without a product URL (box cannot link) (12)
 - alienware-aw2726dm (main: PCPartPicker)
 - apple-macbook-air-13-m5-16gb-512gb (main: Best Buy)
 - asus-pg27aqdp (main: ASUS)
 - benq-zowie-ec2-cw (main: Amazon)
 - gmktec-evo-x2-64gb-1tb (main: GMKtec)
 - hyperx-pulsefire-haste-2-wireless (main: Best Buy)
-- lenovo-legion-5-15-oled-rtx-5060-16gb-512gb (main: Target)
 - lg-27gx704a-b (main: LG)
 - logitech-g-pro-x-superlight-2 (main: Best Buy)
 - logitech-g305 (main: Best Buy)
