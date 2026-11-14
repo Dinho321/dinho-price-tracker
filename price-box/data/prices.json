@@ -17,12 +17,27 @@
     ]
    ]
   },
+  "apple-macbook-air-13-m5-16gb-1tb": {
+   "name": "Apple MacBook Air 13 inch, M5, 16GB / 1TB",
+   "brand": "Apple",
+   "category": "laptop",
+   "price": 1599.0,
+   "checked": "2026-11-14",
+   "seller": "Apple",
+   "history": [
+    [
+     "2026-11-14",
+     1599.0
+    ]
+   ],
+   "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch-starlight-m5-chip-10-core-cpu-10-core-gpu-16gb-memory-1tb-storage"
+  },
   "apple-macbook-air-13-m5-16gb-512gb": {
    "name": "Apple MacBook Air 13\", M5, 16GB / 512GB",
    "brand": "Apple",
    "category": "laptop",
    "price": 1149.0,
-   "checked": "2026-11-12",
+   "checked": "2026-11-14",
    "seller": "Best Buy",
    "history": [
     [
@@ -37,9 +52,40 @@
    "others": [
     {
      "seller": "Apple",
-     "price": 1299.0
+     "price": 1299.0,
+     "url": "https://www.apple.com/shop/buy-mac/macbook-air"
     }
    ]
+  },
+  "apple-macbook-air-13-m5-24gb-1tb": {
+   "name": "Apple MacBook Air 13 inch, M5, 24GB / 1TB",
+   "brand": "Apple",
+   "category": "laptop",
+   "price": 1799.0,
+   "checked": "2026-11-14",
+   "seller": "Apple",
+   "history": [
+    [
+     "2026-11-14",
+     1799.0
+    ]
+   ],
+   "url": "https://www.apple.com/shop/buy-mac/macbook-air/13-inch-starlight-m5-chip-10-core-cpu-10-core-gpu-24gb-memory-1tb-storage"
+  },
+  "apple-macbook-neo-a18-pro-8gb-256gb": {
+   "name": "Apple MacBook Neo, A18 Pro, 8GB / 256GB",
+   "brand": "Apple",
+   "category": "laptop",
+   "price": 699.0,
+   "checked": "2026-11-14",
+   "seller": "Apple",
+   "history": [
+    [
+     "2026-11-14",
+     699.0
+    ]
+   ],
+   "url": "https://www.apple.com/shop/buy-mac/macbook-neo"
   },
   "asus-pg27aqdp": {
    "name": "ASUS ROG Swift PG27AQDP",
@@ -69,6 +115,21 @@
     ]
    ],
    "url": "https://www.bestbuy.com/product/x/6673585"
+  },
+  "asus-zenbook-a14-snapdragon-x-plus-16gb-512gb": {
+   "name": "ASUS Zenbook A14 (14 inch OLED), Snapdragon X Plus, 16GB / 512GB",
+   "brand": "ASUS",
+   "category": "laptop",
+   "price": 929.99,
+   "checked": "2026-11-14",
+   "seller": "Best Buy marketplace seller",
+   "history": [
+    [
+     "2026-11-14",
+     929.99
+    ]
+   ],
+   "url": "https://www.bestbuy.com/product/x/JJGGLH86J4"
   },
   "benq-zowie-ec2-cw": {
    "name": "BenQ Zowie EC2-CW",
@@ -112,6 +173,21 @@
      2199.99
     ]
    ]
+  },
+  "hp-omnibook-3-14-snapdragon-x-16gb-256gb": {
+   "name": "HP OmniBook 3 14 inch 2K OLED, Snapdragon X, 16GB / 256GB",
+   "brand": "HP",
+   "category": "laptop",
+   "price": 499.99,
+   "checked": "2026-11-14",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-14",
+     499.99
+    ]
+   ],
+   "url": "https://www.bestbuy.com/product/x/6679355"
   },
   "hyperx-pulsefire-haste-2-wireless": {
    "name": "HyperX Pulsefire Haste 2 Wireless",
