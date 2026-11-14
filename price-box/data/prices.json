@@ -100,7 +100,14 @@
      699.0
     ]
    ],
-   "url": "https://www.apple.com/shop/buy-mac/macbook-neo"
+   "url": "https://www.apple.com/shop/buy-mac/macbook-neo",
+   "others": [
+    {
+     "seller": "Best Buy",
+     "price": 689.0,
+     "url": "https://www.bestbuy.com/product/x/JJGCQYXQ58"
+    }
+   ]
   },
   "asus-pg27aqdp": {
    "name": "ASUS ROG Swift PG27AQDP",

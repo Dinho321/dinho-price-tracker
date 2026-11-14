@@ -37,6 +37,7 @@ date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,
 2026-11-14,apple-macbook-air-13-m5-16gb-512gb,bestbuy,,retailer,1149,yes,new,page,https://www.bestbuy.com/product/x/JJGCQLKXL7,127 rollout 14 Nov,"Best Buy page, was 1299, add to cart"
 2026-11-14,apple-macbook-air-13-m5-16gb-1tb,bestbuy,,retailer,1449,yes,new,page,https://www.bestbuy.com/product/x/JJGCQLK3C7,127 rollout 14 Nov,"Best Buy page, was 1599, add to cart"
 2026-11-14,apple-macbook-air-13-m5-24gb-1tb,bestbuy,,retailer,1649,yes,new,page,https://www.bestbuy.com/product/x/JJGCQLK3Z4,127 rollout 14 Nov,"Best Buy page, was 1799, add to cart"
+<<<<<<< HEAD
 2026-11-14,steam-deck-oled-512gb,steam,,retailer,789,yes,new,page,https://store.steampowered.com/steamdeck,130,"Steam US store, read in Chrome"
 2026-11-14,steam-deck-oled-1tb,steam,,retailer,949,yes,new,page,https://store.steampowered.com/steamdeck,130,"Steam US store, read in Chrome"
 2026-11-14,steam-deck-oled-512gb-refurbished,steam,,retailer,629,no,refurbished,page,https://store.steampowered.com/sale/steamdeckrefurbished,130,"Valve Certified Refurbished, out of stock"
@@ -59,3 +60,6 @@ date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,
 2026-11-14,samsung-990-evo-plus-2tb,newegg,,retailer,365.99,yes,new,page,https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw,130,PCPartPicker price table 14 Nov
 2026-11-14,samsung-990-evo-plus-2tb,bh,,retailer,579.99,yes,new,page,https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw,130,PCPartPicker price table 14 Nov
 2026-11-14,samsung-990-evo-plus-2tb,bestbuy,,retailer,579.99,yes,new,page,https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw,130,PCPartPicker price table 14 Nov
+=======
+2026-11-14,apple-macbook-neo-a18-pro-8gb-256gb,bestbuy,,retailer,689,yes,new,page,https://www.bestbuy.com/product/x/JJGCQYXQ58,127 rollout 14 Nov,"Best Buy page, save 10 from 699, add to cart"
+>>>>>>> f4503ee (Add Best Buy MacBook Neo price 14 Nov)
