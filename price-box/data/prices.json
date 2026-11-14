@@ -55,6 +55,21 @@
     ]
    ]
   },
+  "asus-tuf-gaming-a16-rtx-5070-r9-8940hx-16gb-512gb": {
+   "name": "ASUS TUF Gaming A16, Ryzen 9 8940HX, RTX 5070, 16GB / 512GB",
+   "brand": "ASUS",
+   "category": "laptop",
+   "price": 2224.99,
+   "checked": "2026-11-14",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-14",
+     2224.99
+    ]
+   ],
+   "url": "https://www.bestbuy.com/product/x/6673585"
+  },
   "benq-zowie-ec2-cw": {
    "name": "BenQ Zowie EC2-CW",
    "brand": "BenQ",
@@ -68,6 +83,21 @@
      149.99
     ]
    ]
+  },
+  "gigabyte-aero-x16-rtx-5070": {
+   "name": "Gigabyte Aero X16, RTX 5070",
+   "brand": "Gigabyte",
+   "category": "laptop",
+   "price": 1499.99,
+   "checked": "2026-11-14",
+   "seller": "Best Buy",
+   "history": [
+    [
+     "2026-11-14",
+     1499.99
+    ]
+   ],
+   "url": "https://www.bestbuy.com/product/x/6632266"
   },
   "gmktec-evo-x2-64gb-1tb": {
    "name": "GMKtec EVO-X2, 64GB / 1TB",
