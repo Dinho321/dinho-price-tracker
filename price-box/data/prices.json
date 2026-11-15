@@ -493,6 +493,66 @@
     }
    ]
   },
+  "steam-9-kings": {
+   "name": "9 Kings",
+   "brand": "",
+   "category": "game",
+   "price": 9.99,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     9.99
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/2784470/"
+  },
+  "steam-ball-x-pit": {
+   "name": "BALL x PIT",
+   "brand": "",
+   "category": "game",
+   "price": 7.49,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     7.49
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/2062430/"
+  },
+  "steam-bombanana": {
+   "name": "BOMBANANA!",
+   "brand": "",
+   "category": "game",
+   "price": 7.99,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     7.99
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/4656000/"
+  },
+  "steam-can-em-all": {
+   "name": "Can 'Em All",
+   "brand": "",
+   "category": "game",
+   "price": 6.99,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     6.99
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/5133900/"
+  },
   "steam-deck-oled-1tb": {
    "name": "Steam Deck OLED, 1TB",
    "brand": "Valve",
@@ -522,6 +582,36 @@
     ]
    ],
    "url": "https://store.steampowered.com/steamdeck"
+  },
+  "steam-how-to-fish": {
+   "name": "How to Fish",
+   "brand": "",
+   "category": "game",
+   "price": 7.99,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     7.99
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/4001890/"
+  },
+  "steam-vampire-survivors": {
+   "name": "Vampire Survivors",
+   "brand": "",
+   "category": "game",
+   "price": 4.99,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     4.99
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/1794680/"
   }
  }
 }
