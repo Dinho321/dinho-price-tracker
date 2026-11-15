@@ -82,3 +82,5 @@ date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,
 2026-11-15,steam-can-em-all,steam,,retailer,6.99,yes,new,page,https://store.steampowered.com/app/5133900/,137 Steam appdetails 15 Nov,"Steam US store page, read in Chrome"
 2026-11-15,steam-how-to-fish,steam,,retailer,7.99,yes,new,page,https://store.steampowered.com/app/4001890/,137 Steam appdetails 15 Nov,"Steam US store page, read in Chrome"
 2026-11-15,steam-bombanana,steam,,retailer,7.99,yes,new,page,https://store.steampowered.com/app/4656000/,137 Steam appdetails 15 Nov,"Steam US store page, read in Chrome"
+2026-11-15,steam-terraria,steam,,retailer,9.99,yes,new,page,https://store.steampowered.com/app/105600/,139 Steam appdetails 15 Nov,"Steam US store page, read in Chrome"
+2026-11-15,steam-lethal-company,steam,,retailer,9.99,yes,new,page,https://store.steampowered.com/app/1966720/,139 Steam appdetails 15 Nov,"Steam US store page, read in Chrome"

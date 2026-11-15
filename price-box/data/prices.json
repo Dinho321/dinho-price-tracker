@@ -598,6 +598,36 @@
    ],
    "url": "https://store.steampowered.com/app/4001890/"
   },
+  "steam-lethal-company": {
+   "name": "Lethal Company",
+   "brand": "",
+   "category": "game",
+   "price": 9.99,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     9.99
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/1966720/"
+  },
+  "steam-terraria": {
+   "name": "Terraria",
+   "brand": "",
+   "category": "game",
+   "price": 9.99,
+   "checked": "2026-11-15",
+   "seller": "Steam (Valve)",
+   "history": [
+    [
+     "2026-11-15",
+     9.99
+    ]
+   ],
+   "url": "https://store.steampowered.com/app/105600/"
+  },
   "steam-vampire-survivors": {
    "name": "Vampire Survivors",
    "brand": "",
