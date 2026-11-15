@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-14",
+ "updated": "2026-11-15",
  "currency": "USD",
  "region": "US",
  "products": {
@@ -202,7 +202,7 @@
    "brand": "GMKtec",
    "category": "mini-pc",
    "price": 2199.99,
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "seller": "GMKtec",
    "history": [
     [
@@ -340,7 +340,7 @@
    "brand": "Minisforum",
    "category": "mini-pc",
    "price": 1759.0,
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "seller": "Minisforum",
    "history": [
     [
@@ -383,16 +383,21 @@
    "brand": "Samsung",
    "category": "ssd",
    "price": 399.99,
-   "checked": "2026-11-14",
-   "seller": "Amazon",
+   "checked": "2026-11-15",
+   "seller": "Newegg",
    "history": [
     [
      "2026-11-14",
      399.99
     ]
    ],
-   "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam",
+   "url": "https://www.newegg.com/p/N82E16820147903",
    "others": [
+    {
+     "seller": "Amazon",
+     "price": 399.99,
+     "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam"
+    },
     {
      "seller": "B&H",
      "price": 399.99,
@@ -400,11 +405,6 @@
     },
     {
      "seller": "Best Buy",
-     "price": 399.99,
-     "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam"
-    },
-    {
-     "seller": "Newegg",
      "price": 399.99,
      "url": "https://pcpartpicker.com/product/dKXMnQ/samsung-9100-pro-2-tb-m2-2280-pcie-50-x4-nvme-solid-state-drive-mz-vap2t0bam"
     },
@@ -419,21 +419,30 @@
    "name": "Samsung 990 EVO Plus 2TB (MZ-V9S2T0BW)",
    "brand": "Samsung",
    "category": "ssd",
-   "price": 362.0,
-   "checked": "2026-11-14",
-   "seller": "Amazon",
+   "price": 361.99,
+   "checked": "2026-11-15",
+   "seller": "Newegg",
    "history": [
     [
      "2026-11-14",
      362.0
+    ],
+    [
+     "2026-11-15",
+     361.99
     ]
    ],
-   "url": "https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw",
+   "url": "https://www.newegg.com/p/N82E16820147900",
    "others": [
     {
-     "seller": "Newegg",
-     "price": 365.99,
+     "seller": "Amazon",
+     "price": 362.0,
      "url": "https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw"
+    },
+    {
+     "seller": "Walmart",
+     "price": 399.9,
+     "url": "https://www.walmart.com/ip/15827215889"
     },
     {
      "seller": "B&H",
@@ -443,7 +452,7 @@
     {
      "seller": "Best Buy",
      "price": 579.99,
-     "url": "https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw"
+     "url": "https://www.bestbuy.com/product/samsung-990-evo-plus-ssd-2tb-pcie-gen-4x4--5x2-m-2-2280-speeds-up-to-7250-mb-s/J3ZYG2TV4V"
     }
    ]
   },
@@ -452,16 +461,21 @@
    "brand": "Samsung",
    "category": "ssd",
    "price": 389.99,
-   "checked": "2026-11-14",
-   "seller": "Amazon",
+   "checked": "2026-11-15",
+   "seller": "Newegg",
    "history": [
     [
      "2026-11-14",
      389.99
     ]
    ],
-   "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw",
+   "url": "https://www.newegg.com/p/N82E16820147861",
    "others": [
+    {
+     "seller": "Amazon",
+     "price": 389.99,
+     "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
+    },
     {
      "seller": "B&H",
      "price": 389.99,
@@ -469,11 +483,6 @@
     },
     {
      "seller": "Best Buy",
-     "price": 389.99,
-     "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
-    },
-    {
-     "seller": "Newegg",
      "price": 389.99,
      "url": "https://pcpartpicker.com/product/34ytt6/samsung-990-pro-2-tb-m2-2280-pcie-40-x4-nvme-solid-state-drive-mz-v9p2t0bw"
     },
@@ -489,7 +498,7 @@
    "brand": "Valve",
    "category": "handheld",
    "price": 949.0,
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "seller": "Steam (Valve)",
    "history": [
     [
@@ -504,7 +513,7 @@
    "brand": "Valve",
    "category": "handheld",
    "price": 789.0,
-   "checked": "2026-11-14",
+   "checked": "2026-11-15",
    "seller": "Steam (Valve)",
    "history": [
     [

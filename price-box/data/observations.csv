@@ -60,3 +60,19 @@ date,product_id,retailer_id,seller,seller_kind,price,in_stock,condition,quality,
 2026-11-14,samsung-990-evo-plus-2tb,bh,,retailer,579.99,yes,new,page,https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw,130,PCPartPicker price table 14 Nov
 2026-11-14,samsung-990-evo-plus-2tb,bestbuy,,retailer,579.99,yes,new,page,https://pcpartpicker.com/product/hpqrxr/samsung-990-evo-plus-2-tb-m2-2280-pcie-50-x2-nvme-solid-state-drive-mz-v9s2t0bw,130,PCPartPicker price table 14 Nov
 2026-11-14,apple-macbook-neo-a18-pro-8gb-256gb,bestbuy,,retailer,689,yes,new,page,https://www.bestbuy.com/product/x/JJGCQYXQ58,127 rollout 14 Nov,"Best Buy page, save 10 from 699, add to cart"
+2026-11-15,steam-deck-oled-512gb,steam,,retailer,789,yes,new,page,https://store.steampowered.com/steamdeck,137 15 Nov live re-read,Steam US store re-read 15 Nov
+2026-11-15,steam-deck-oled-1tb,steam,,retailer,949,yes,new,page,https://store.steampowered.com/steamdeck,137 15 Nov live re-read,Steam US store re-read 15 Nov
+2026-11-15,steam-deck-oled-512gb-refurbished,steam,,retailer,629,no,refurbished,page,https://store.steampowered.com/sale/steamdeckrefurbished,137 15 Nov live re-read,"Valve Certified Refurbished, still sold out 15 Nov"
+2026-11-15,steam-deck-oled-1tb-refurbished,steam,,retailer,759,no,refurbished,page,https://store.steampowered.com/sale/steamdeckrefurbished,137 15 Nov live re-read,"Valve Certified Refurbished, still sold out 15 Nov"
+2026-11-15,minisforum-um890-pro-32gb-1tb,minisforum,,retailer,1015,no,new,page,https://store.minisforum.com/products/minisforum-um890pro-mini-pc,137 15 Nov live re-read,Maker store 15 Nov; config out of stock; was 1269
+2026-11-15,minisforum-atomman-g1-pro-rtx-5060-32gb-1tb,minisforum,,retailer,1759,yes,new,page,https://store.minisforum.com/products/minisforum-g1-pro-gaming-pc,137 15 Nov live re-read,Maker store 15 Nov; was 2199
+2026-11-15,gmktec-evo-x2-64gb-1tb,gmktec,,retailer,2199.99,yes,new,page,https://www.gmktec.com/products/amd-ryzen%E2%84%A2-ai-max-395-evo-x2-ai-mini-pc,137 15 Nov live re-read,Maker store 15 Nov; was 2599.99
+2026-11-15,samsung-990-pro-2tb,newegg,,retailer,389.99,yes,new,page,https://www.newegg.com/p/N82E16820147861,137 15 Nov live re-read,"MZ-V9P2T0B/AM, Newegg product page"
+2026-11-15,samsung-990-pro-2tb,bestbuy,,retailer,389.99,yes,new,snippet,,137 15 Nov live re-read,"Best Buy search page, exact model searched"
+2026-11-15,samsung-990-pro-2tb,walmart,,retailer,389.99,yes,new,snippet,,137 15 Nov live re-read,"Walmart search page, exact model searched"
+2026-11-15,samsung-9100-pro-2tb,newegg,,retailer,399.99,yes,new,page,https://www.newegg.com/p/N82E16820147903,137 15 Nov live re-read,"MZ-VAP2T0B/AM, Newegg product page"
+2026-11-15,samsung-9100-pro-2tb,bestbuy,,retailer,399.99,yes,new,snippet,,137 15 Nov live re-read,"Best Buy search page, exact model searched"
+2026-11-15,samsung-9100-pro-2tb,walmart,,retailer,399.99,yes,new,snippet,,137 15 Nov live re-read,"Walmart search page, exact model searched"
+2026-11-15,samsung-990-evo-plus-2tb,newegg,,retailer,361.99,yes,new,page,https://www.newegg.com/p/N82E16820147900,137 15 Nov live re-read,"MZ-V9S2T0B/AM, Newegg product page"
+2026-11-15,samsung-990-evo-plus-2tb,bestbuy,,retailer,579.99,yes,new,page,https://www.bestbuy.com/product/samsung-990-evo-plus-ssd-2tb-pcie-gen-4x4--5x2-m-2-2280-speeds-up-to-7250-mb-s/J3ZYG2TV4V,137 15 Nov live re-read,"Best Buy product page, SKU 6601257"
+2026-11-15,samsung-990-evo-plus-2tb,walmart,,retailer,399.9,yes,new,page,https://www.walmart.com/ip/15827215889,137 15 Nov live re-read,Walmart product page

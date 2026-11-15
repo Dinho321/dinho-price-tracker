@@ -1,6 +1,6 @@
-# Price database report (generated 2026-11-14)
+# Price database report (generated 2026-11-15)
 
-Products: 52 · with a usable price: 28 · observations: 61
+Products: 52 · with a usable price: 28 · observations: 77
 
 ## No usable price (only snippets, out of stock or no data) (24)
 - acer-nitro-v-16-rtx-5050-core7-240h-16gb-512gb
@@ -42,6 +42,6 @@ Products: 52 · with a usable price: 28 · observations: 61
 ## Value verdict needs re-judging (0)
 
 ## Older than 7 days (3)
-- alienware-aw2726dm: 8 days (checked 2026-11-06)
-- asus-pg27aqdp: 8 days (checked 2026-11-06)
-- lg-27gx704a-b: 8 days (checked 2026-11-06)
+- alienware-aw2726dm: 9 days (checked 2026-11-06)
+- asus-pg27aqdp: 9 days (checked 2026-11-06)
+- lg-27gx704a-b: 9 days (checked 2026-11-06)
