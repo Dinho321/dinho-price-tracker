@@ -28,10 +28,11 @@
 
   var CSS = [
     '.dinho-pricebars .pbar{margin:.9rem 0 0}',
-    '.dinho-pricebars .pbar-top{display:flex;justify-content:space-between;align-items:baseline;gap:.75rem;margin:0 0 .25rem;font-size:.95rem}',
-    '.dinho-pricebars .pbar-name{font-weight:700;color:var(--wp--preset--color--secondary);min-width:0;overflow-wrap:anywhere}',
+    '.dinho-pricebars .pbar-top{display:flex;flex-wrap:wrap;row-gap:.15rem;justify-content:space-between;align-items:baseline;column-gap:.75rem;margin:0 0 .25rem;font-size:.95rem}',
+    '.dinho-pricebars .pbar-name{flex:1 1 12rem;font-weight:700;color:var(--wp--preset--color--secondary);min-width:0;overflow-wrap:break-word}',
     '.dinho-pricebars .pbar-at{font-weight:500;color:#5A6275}',
     '.dinho-pricebars .pbar-note{font-size:.85rem;color:#5A6275;text-align:right;flex:0 0 auto}',
+    '@media(max-width:640px){.dinho-pricebars .pbar-note{flex:1 1 100%;text-align:left}}',
     '.dinho-pricebars .pbar-note.is-low{font-weight:700;color:#0D1566}',
     '.dinho-pricebars .pbar-track{height:2.4rem;border-radius:999px;background:#EAF0FF;overflow:hidden}',
     '.dinho-pricebars .pbar-fill{display:flex;align-items:center;justify-content:flex-end;box-sizing:border-box;height:100%;min-width:6.5rem;padding:0 1rem;border-radius:999px;font-family:var(--wp--preset--font-family--orbitron);font-size:1rem;font-weight:700;white-space:nowrap}',
