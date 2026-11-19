@@ -1639,16 +1639,6 @@
         1900
       ]
     },
-    "corsair-vengeance-a7500-9800x3d-rtx-5070-ti-2tb": {
-      "name": "Corsair Vengeance a7500 (9800X3D, RTX 5070 Ti, 2TB)",
-      "short": "Vengeance a7500",
-      "judged": "2026-11-19",
-      "tiers": [
-        2250,
-        2500,
-        2750
-      ]
-    },
     "budget-build-rtx-5060-ti-8gb": {
       "name": "Budget build with RTX 5060 Ti 8GB",
       "short": "5060 Ti build",
@@ -1657,6 +1647,16 @@
         1000,
         1150,
         1300
+      ]
+    },
+    "corsair-vengeance-a7500-9800x3d-rtx-5070-ti-1tb": {
+      "name": "Corsair Vengeance a7500 (9800X3D, RTX 5070 Ti, 1TB)",
+      "short": "Vengeance a7500",
+      "judged": "2026-11-19",
+      "tiers": [
+        2250,
+        2500,
+        2750
       ]
     }
   }
