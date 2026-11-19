@@ -1,10 +1,94 @@
 {
-  "note": "Value tiers per model: upper limits of strong, good and fair value in US dollars; weak is above the last limit. Edited by hand when we re-judge a model. EXAMPLE numbers for the first test are a proposal awaiting owner approval.",
+  "note": "Value tiers per model: upper limits of strong, good and fair value in US dollars; weak is above the last limit. Edited by hand when we re-judge a model (owner approved the 19 Nov 2026 numbers). Optional short = label used in the compact table.",
   "products": {
     "lenovo-loq-15irx10-rtx-5050-16gb-1tb": {
       "name": "Lenovo LOQ 15IRX10 (83JE0012US), RTX 5050, 16GB / 1TB",
       "judged": "2026-11-19",
-      "tiers": [949.99, 1049.99, 1149.99]
+      "tiers": [
+        949.99,
+        1049.99,
+        1149.99
+      ]
+    },
+    "apple-macbook-neo-a18-pro-8gb-256gb": {
+      "name": "Apple MacBook Neo, A18 Pro, 8GB / 256GB",
+      "short": "8GB / 256GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        699,
+        749,
+        799
+      ]
+    },
+    "apple-macbook-air-13-m5-16gb-512gb": {
+      "name": "Apple MacBook Air 13 inch, M5, 16GB / 512GB",
+      "short": "16GB / 512GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        1099,
+        1149,
+        1299
+      ]
+    },
+    "apple-macbook-air-13-m5-16gb-1tb": {
+      "name": "Apple MacBook Air 13 inch, M5, 16GB / 1TB",
+      "short": "16GB / 1TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        1349,
+        1449,
+        1599
+      ]
+    },
+    "apple-macbook-air-13-m5-24gb-1tb": {
+      "name": "Apple MacBook Air 13 inch, M5, 24GB / 1TB",
+      "short": "24GB / 1TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        1549,
+        1649,
+        1799
+      ]
+    },
+    "asus-zenbook-a14-snapdragon-x-plus-16gb-512gb": {
+      "name": "ASUS Zenbook A14 (14 inch OLED), Snapdragon X Plus, 16GB / 512GB",
+      "short": "16GB / 512GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        799.99,
+        879.99,
+        949.99
+      ]
+    },
+    "lenovo-legion-5-15-oled-rtx-5060-16gb-512gb": {
+      "name": "Lenovo Legion 5 15.1\" OLED, Ryzen 7 260, RTX 5060, 16GB / 512GB",
+      "short": "16GB / 512GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        1299.99,
+        1399.99,
+        1549.99
+      ]
+    },
+    "gigabyte-aero-x16-rtx-5070": {
+      "name": "Gigabyte Aero X16, RTX 5070",
+      "short": "RTX 5070",
+      "judged": "2026-11-19",
+      "tiers": [
+        1299.99,
+        1399.99,
+        1499.99
+      ]
+    },
+    "lenovo-loq-15ahp11-rtx-5060-r7-250-16gb-512gb": {
+      "name": "Lenovo LOQ 15AHP11 (15.3 inch), Ryzen 7 250, RTX 5060, 16GB / 512GB",
+      "short": "16GB / 512GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        999.99,
+        1099.99,
+        1199.99
+      ]
     }
   }
 }

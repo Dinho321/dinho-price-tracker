@@ -9,6 +9,7 @@
  *     <p>Model name: strong value up to $A, good value up to $B, fair value up to $C, weak value above $C. Judged 19 Nov 2026.</p>
  *   </div>
  *
+ * Compact table for 3 or more models: data-models="ID1,ID2,ID3" (optional data-title), same data file, optional "short" label per product.
  * Data: data/value-tiers.json next to widget/ on the same host as this script (or data-src on the box):
  *   {"products": {"PRODUCT_ID": {"name": "...", "judged": "YYYY-MM-DD", "tiers": [A, B, C]}}}
  * tiers = upper limits of strong, good and fair (ascending); weak is everything above the last limit.
@@ -31,6 +32,17 @@
     '.dinho-tiers .vt-fair .vt-label{background:#5FEDE6;color:#0D1566}',
     '.dinho-tiers .vt-weak .vt-label{background:#DCE6FF;color:#0D1566}',
     '.dinho-tiers .vt-range{display:block;text-align:center;font-family:var(--wp--preset--font-family--orbitron);font-size:1.05rem;font-weight:700;line-height:1.2;color:var(--wp--preset--color--contrast);overflow-wrap:normal;word-break:normal}',
+    '.dinho-tiers .vt-wrap{overflow-x:auto}',
+    '.dinho-tiers table.vt-table{width:100%;min-width:34rem;border-collapse:separate;border-spacing:4px;margin:0;table-layout:auto}',
+    '.dinho-tiers .vt-table th,.dinho-tiers .vt-table td{padding:.55rem .4rem;text-align:center;border:0;overflow-wrap:normal;word-break:normal}',
+    '.dinho-tiers .vt-table th{border-radius:6px;font-weight:700;font-size:.95rem;line-height:1.2}',
+    '.dinho-tiers .vt-table th.vt-corner{background:transparent;text-align:left}',
+    '.dinho-tiers .vt-table th.vt-strong{background:#E6208C;color:#fff}',
+    '.dinho-tiers .vt-table th.vt-good{background:#2B4BFF;color:#fff}',
+    '.dinho-tiers .vt-table th.vt-fair{background:#5FEDE6;color:#0D1566}',
+    '.dinho-tiers .vt-table th.vt-weak{background:#DCE6FF;color:#0D1566}',
+    '.dinho-tiers .vt-table td{font-family:var(--wp--preset--font-family--orbitron);font-size:.95rem;font-weight:700;color:var(--wp--preset--color--contrast);background:transparent}',
+    '.dinho-tiers .vt-table td.vt-model{font-family:inherit;text-align:left;font-size:.95rem}',
     '.dinho-tiers .vt-meta{margin:.8rem 0 0;font-size:.8rem;color:#5A6275}',
     '@media (max-width:640px){.dinho-tiers .vt-bar{grid-template-columns:minmax(0,1fr);gap:.5rem}',
     '.dinho-tiers .vt-seg{flex-direction:row;align-items:center;justify-content:space-between;gap:.75rem}',
@@ -89,6 +101,40 @@
     box.setAttribute('data-state', 'ready');
   }
 
+
+  function renderTable(box, items) {
+    if (!document.getElementById('dinho-vt-css')) {
+      var st = document.createElement('style'); st.id = 'dinho-vt-css'; st.textContent = CSS; document.head.appendChild(st);
+    }
+    var table = h('table', 'vt-table');
+    var head = h('tr');
+    head.appendChild(h('th', 'vt-corner', 'Model'));
+    [['strong', 'Strong value'], ['good', 'Good value'], ['fair', 'Fair value'], ['weak', 'Weak value']].forEach(function (c) {
+      head.appendChild(h('th', 'vt-' + c[0], c[1]));
+    });
+    var thead = h('thead'); thead.appendChild(head); table.appendChild(thead);
+    var tbody = h('tbody');
+    items.forEach(function (item) {
+      var t = item.tiers;
+      var tr = h('tr');
+      tr.appendChild(h('td', 'vt-model', item.short || item.name));
+      tr.appendChild(h('td', '', 'up to ' + money(t[0])));
+      tr.appendChild(h('td', '', money(t[0]) + ' to ' + money(t[1])));
+      tr.appendChild(h('td', '', money(t[1]) + ' to ' + money(t[2])));
+      tr.appendChild(h('td', '', 'above ' + money(t[2])));
+      tbody.appendChild(tr);
+    });
+    table.appendChild(tbody);
+    var wrap = h('div', 'vt-wrap'); wrap.appendChild(table);
+    var title = box.getAttribute('data-title') || '';
+    while (box.firstChild) box.removeChild(box.firstChild);
+    box.appendChild(h('p', 'dr-highlight__title', 'Value check'));
+    if (title) box.appendChild(h('p', 'vt-name', title));
+    box.appendChild(wrap);
+    box.appendChild(h('p', 'vt-meta', 'The prices at which we rate the value of each model. Judged ' + full(items[0].judged) + ' by DinhoReviews.'));
+    box.setAttribute('data-state', 'ready');
+  }
+
   function load(box, cache) {
     var inline = document.getElementById('dinho-tiers-data');
     if (inline) { try { return Promise.resolve(JSON.parse(inline.textContent)); } catch (e) { return Promise.reject(e); } }
@@ -103,12 +149,21 @@
   }
 
   function run() {
-    var boxes = document.querySelectorAll('.dinho-tiers[data-model]');
+    var boxes = document.querySelectorAll('.dinho-tiers[data-model], .dinho-tiers[data-models]');
     if (!boxes.length) return;
     var cache = {};
     Array.prototype.forEach.call(boxes, function (box) {
       load(box, cache).then(function (data) {
-        var item = data ? (data.products ? data.products[box.getAttribute('data-model')] : null) : null;
+        var products = data ? data.products : null;
+        if (!products) return;
+        var multi = box.getAttribute('data-models');
+        if (multi) {
+          var items = multi.split(',').map(function (id) { return products[id.trim()]; });
+          var ok = items.every(function (it) { return it ? (it.name ? (dparts(it.judged) ? validTiers(it.tiers) : false) : false) : false; });
+          if (ok) renderTable(box, items);
+          return;
+        }
+        var item = products[box.getAttribute('data-model')];
         if (!item || !item.name || !dparts(item.judged) || !validTiers(item.tiers)) return;
         render(box, item);
       }).catch(function () { /* keep fallback */ });
