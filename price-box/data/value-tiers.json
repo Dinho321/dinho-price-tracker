@@ -1118,6 +1118,96 @@
         35,
         45
       ]
+    },
+    "apple-macbook-air-15-m5-16gb-512gb": {
+      "name": "Apple MacBook Air 15-inch M5, 16GB / 512GB",
+      "short": "Air 15-inch 16/512",
+      "judged": "2026-11-19",
+      "tiers": [
+        1300,
+        1350,
+        1500
+      ]
+    },
+    "gigabyte-aero-x16-rtx-5060-ryzen-ai-7-350-32gb-1tb": {
+      "name": "Gigabyte Aero X16, RTX 5060, Ryzen AI 7 350, 32GB / 1TB",
+      "short": "Aero X16 RTX 5060",
+      "judged": "2026-11-19",
+      "tiers": [
+        1200,
+        1300,
+        1450
+      ]
+    },
+    "alienware-15-3-rtx-5050-ryzen-7-260-16gb-1tb": {
+      "name": "Alienware 15.3-inch, RTX 5050, Ryzen 7 260, 16GB / 1TB",
+      "short": "Alienware 15.3 RTX 5050",
+      "judged": "2026-11-19",
+      "tiers": [
+        900,
+        1000,
+        1100
+      ]
+    },
+    "apple-macbook-pro-14-m6-16gb-1tb": {
+      "name": "Apple MacBook Pro 14-inch M6, 16GB / 1TB",
+      "short": "MacBook Pro 14 M6",
+      "judged": "2026-11-19",
+      "tiers": [
+        1700,
+        1850,
+        2000
+      ]
+    },
+    "lenovo-ideapad-slim-3i-15-3-core-7-350-16gb-512gb": {
+      "name": "Lenovo IdeaPad Slim 3i 15.3-inch, Core 7 350, 16GB / 512GB",
+      "short": "IdeaPad Slim 3i",
+      "judged": "2026-11-19",
+      "tiers": [
+        600,
+        650,
+        750
+      ]
+    },
+    "hp-omnibook-3-14-oled-snapdragon-x-8gb-256gb": {
+      "name": "HP OmniBook 3 14-inch OLED, Snapdragon X, 8GB / 256GB",
+      "short": "OmniBook 3 8/256",
+      "judged": "2026-11-19",
+      "tiers": [
+        400,
+        450,
+        500
+      ]
+    },
+    "hp-omnibook-3-14-oled-snapdragon-x-16gb-256gb": {
+      "name": "HP OmniBook 3 14-inch OLED, Snapdragon X, 16GB / 256GB",
+      "short": "OmniBook 3 16/256",
+      "judged": "2026-11-19",
+      "tiers": [
+        500,
+        550,
+        650
+      ]
+    },
+    "hp-omnibook-3-14-oled-snapdragon-x-16gb-512gb": {
+      "name": "HP OmniBook 3 14-inch OLED, Snapdragon X, 16GB / 512GB",
+      "short": "OmniBook 3 16/512",
+      "judged": "2026-11-19",
+      "tiers": [
+        600,
+        650,
+        750
+      ]
+    },
+    "acer-nitro-v-16-rtx-5060-core7-240h-16gb-512gb": {
+      "name": "Acer Nitro V 16, RTX 5060, Core 7 240H, 16GB / 512GB",
+      "short": "Nitro V 16 RTX 5060",
+      "judged": "2026-11-19",
+      "tiers": [
+        1100,
+        1200,
+        1300
+      ]
     }
   }
 }
