@@ -52,11 +52,11 @@
 
   function isNum(v) { return Number.isFinite(v) ? v > 0 : false; }
   function money(v) {
-    var whole = 0.005 > Math.abs(v - Math.round(v));
+    v = Math.round(v);
     try {
       return new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD',
-        minimumFractionDigits: whole ? 0 : 2, maximumFractionDigits: 2 }).format(v);
-    } catch (e) { return '$' + v.toFixed(whole ? 0 : 2); }
+        minimumFractionDigits: 0, maximumFractionDigits: 0 }).format(v);
+    } catch (e) { return '$' + String(v).replace(/\B(?=(\d{3})+(?!\d))/g, ','); }
   }
   function dparts(iso) { return /^(\d{4})-(\d{2})-(\d{2})$/.exec(iso || ''); }
   function full(iso) { var p = dparts(iso); return p ? parseInt(p[3], 10) + ' ' + MONTHS[+p[2] - 1] + ' ' + p[1] : ''; }
@@ -81,8 +81,8 @@
     var t = item.tiers;
     var segs = [
       ['strong', 'Strong value', 'up to ' + money(t[0])],
-      ['good', 'Good value', money(t[0]) + ' to ' + money(t[1])],
-      ['fair', 'Fair value', money(t[1]) + ' to ' + money(t[2])],
+      ['good', 'Good value', 'up to ' + money(t[1])],
+      ['fair', 'Fair value', 'up to ' + money(t[2])],
       ['weak', 'Weak value', 'above ' + money(t[2])]
     ];
     var list = h('ul', 'vt-bar');
@@ -119,8 +119,8 @@
       var tr = h('tr');
       tr.appendChild(h('td', 'vt-model', item.short || item.name));
       tr.appendChild(h('td', '', 'up to ' + money(t[0])));
-      tr.appendChild(h('td', '', money(t[0]) + ' to ' + money(t[1])));
-      tr.appendChild(h('td', '', money(t[1]) + ' to ' + money(t[2])));
+      tr.appendChild(h('td', '', 'up to ' + money(t[1])));
+      tr.appendChild(h('td', '', 'up to ' + money(t[2])));
       tr.appendChild(h('td', '', 'above ' + money(t[2])));
       tbody.appendChild(tr);
     });
