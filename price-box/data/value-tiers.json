@@ -1658,6 +1658,36 @@
         2500,
         2750
       ]
+    },
+    "i5-12600kf-build-rtx-5060-8gb": {
+      "name": "Core i5-12600KF build with RTX 5060 8GB",
+      "short": "12600KF + 5060",
+      "judged": "2026-11-19",
+      "tiers": [
+        950,
+        1100,
+        1250
+      ]
+    },
+    "i5-12600kf-build-rtx-5070-12gb": {
+      "name": "Core i5-12600KF build with RTX 5070 12GB",
+      "short": "12600KF + 5070",
+      "judged": "2026-11-19",
+      "tiers": [
+        1175,
+        1350,
+        1525
+      ]
+    },
+    "i5-12600kf-build-rtx-5070-ti-16gb": {
+      "name": "Core i5-12600KF build with RTX 5070 Ti 16GB",
+      "short": "12600KF + 5070 Ti",
+      "judged": "2026-11-19",
+      "tiers": [
+        1450,
+        1650,
+        1850
+      ]
     }
   }
 }
