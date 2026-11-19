@@ -1208,6 +1208,376 @@
         1200,
         1300
       ]
+    },
+    "intel-arc-b570-10gb": {
+      "name": "Intel Arc B570 10GB",
+      "short": "Arc B570",
+      "judged": "2026-11-19",
+      "tiers": [
+        250,
+        300,
+        350
+      ]
+    },
+    "nvidia-rtx-5050-8gb": {
+      "name": "NVIDIA GeForce RTX 5050 8GB",
+      "short": "RTX 5050",
+      "judged": "2026-11-19",
+      "tiers": [
+        250,
+        300,
+        350
+      ]
+    },
+    "nvidia-rtx-5060-8gb": {
+      "name": "NVIDIA GeForce RTX 5060 8GB",
+      "short": "RTX 5060",
+      "judged": "2026-11-19",
+      "tiers": [
+        350,
+        400,
+        450
+      ]
+    },
+    "amd-rx-9060-xt-8gb": {
+      "name": "AMD Radeon RX 9060 XT 8GB",
+      "short": "9060 XT 8GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        350,
+        400,
+        450
+      ]
+    },
+    "nvidia-rtx-5060-ti-8gb": {
+      "name": "NVIDIA GeForce RTX 5060 Ti 8GB",
+      "short": "5060 Ti 8GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        400,
+        450,
+        500
+      ]
+    },
+    "amd-rx-9060-xt-16gb": {
+      "name": "AMD Radeon RX 9060 XT 16GB",
+      "short": "9060 XT 16GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        425,
+        500,
+        575
+      ]
+    },
+    "nvidia-rtx-5060-ti-16gb": {
+      "name": "NVIDIA GeForce RTX 5060 Ti 16GB",
+      "short": "5060 Ti 16GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        475,
+        550,
+        625
+      ]
+    },
+    "amd-rx-9070-gre-12gb": {
+      "name": "AMD Radeon RX 9070 GRE 12GB",
+      "short": "9070 GRE",
+      "judged": "2026-11-19",
+      "tiers": [
+        450,
+        500,
+        550
+      ]
+    },
+    "amd-rx-9070-16gb": {
+      "name": "AMD Radeon RX 9070 16GB",
+      "short": "RX 9070",
+      "judged": "2026-11-19",
+      "tiers": [
+        575,
+        650,
+        725
+      ]
+    },
+    "amd-rx-9070-xt-16gb": {
+      "name": "AMD Radeon RX 9070 XT 16GB",
+      "short": "9070 XT",
+      "judged": "2026-11-19",
+      "tiers": [
+        650,
+        725,
+        800
+      ]
+    },
+    "nvidia-rtx-5070-12gb": {
+      "name": "NVIDIA GeForce RTX 5070 12GB",
+      "short": "RTX 5070",
+      "judged": "2026-11-19",
+      "tiers": [
+        575,
+        650,
+        725
+      ]
+    },
+    "nvidia-rtx-5070-ti-16gb": {
+      "name": "NVIDIA GeForce RTX 5070 Ti 16GB",
+      "short": "5070 Ti",
+      "judged": "2026-11-19",
+      "tiers": [
+        850,
+        950,
+        1050
+      ]
+    },
+    "nvidia-rtx-5080-16gb": {
+      "name": "NVIDIA GeForce RTX 5080 16GB",
+      "short": "RTX 5080",
+      "judged": "2026-11-19",
+      "tiers": [
+        1050,
+        1200,
+        1350
+      ]
+    },
+    "nvidia-rtx-5090-32gb": {
+      "name": "NVIDIA GeForce RTX 5090 32GB",
+      "short": "RTX 5090",
+      "judged": "2026-11-19",
+      "tiers": [
+        2100,
+        2500,
+        2900
+      ]
+    },
+    "samsung-990-pro-2tb-heatsink": {
+      "name": "Samsung 990 PRO 2TB with heatsink",
+      "short": "990 PRO",
+      "judged": "2026-11-19",
+      "tiers": [
+        425,
+        475,
+        525
+      ]
+    },
+    "wd-black-sn850p-2tb-heatsink": {
+      "name": "WD_BLACK SN850P 2TB with heatsink",
+      "short": "SN850P",
+      "judged": "2026-11-19",
+      "tiers": [
+        350,
+        425,
+        475
+      ]
+    },
+    "seagate-firecuda-530r-2tb-heatsink": {
+      "name": "Seagate FireCuda 530R 2TB with heatsink",
+      "short": "FireCuda 530R",
+      "judged": "2026-11-19",
+      "tiers": [
+        375,
+        450,
+        525
+      ]
+    },
+    "amd-ryzen-7-9800x3d": {
+      "name": "AMD Ryzen 7 9800X3D",
+      "short": "9800X3D",
+      "judged": "2026-11-19",
+      "tiers": [
+        375,
+        425,
+        475
+      ]
+    },
+    "amd-ryzen-5-9600x": {
+      "name": "AMD Ryzen 5 9600X",
+      "short": "9600X",
+      "judged": "2026-11-19",
+      "tiers": [
+        150,
+        180,
+        210
+      ]
+    },
+    "intel-core-ultra-5-250k-plus": {
+      "name": "Intel Core Ultra 5 250K Plus",
+      "short": "Ultra 5 250K Plus",
+      "judged": "2026-11-19",
+      "tiers": [
+        175,
+        200,
+        225
+      ]
+    },
+    "asus-rog-xbox-ally-16gb-512gb": {
+      "name": "ASUS ROG Xbox Ally 16GB / 512GB",
+      "short": "ROG Xbox Ally",
+      "judged": "2026-11-19",
+      "tiers": [
+        500,
+        600,
+        700
+      ]
+    },
+    "lenovo-legion-go-s-steamos-32gb-1tb": {
+      "name": "Lenovo Legion Go S (SteamOS) 32GB / 1TB",
+      "short": "Legion Go S",
+      "judged": "2026-11-19",
+      "tiers": [
+        650,
+        750,
+        850
+      ]
+    },
+    "thermalright-peerless-assassin-120-se": {
+      "name": "Thermalright Peerless Assassin 120 SE",
+      "short": "Peerless Assassin",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        50
+      ]
+    },
+    "arctic-liquid-freezer-iii-pro-360": {
+      "name": "Arctic Liquid Freezer III Pro 360",
+      "short": "Freezer III Pro 360",
+      "judged": "2026-11-19",
+      "tiers": [
+        60,
+        75,
+        90
+      ]
+    },
+    "noctua-nh-d15-g2": {
+      "name": "Noctua NH-D15 G2",
+      "short": "NH-D15 G2",
+      "judged": "2026-11-19",
+      "tiers": [
+        110,
+        130,
+        150
+      ]
+    },
+    "corsair-vengeance-32gb-ddr5-6000-cl30": {
+      "name": "Corsair Vengeance 32GB DDR5-6000 CL30",
+      "short": "Vengeance",
+      "judged": "2026-11-19",
+      "tiers": [
+        450,
+        525,
+        600
+      ]
+    },
+    "gskill-trident-z5-neo-32gb-ddr5-6000-cl30": {
+      "name": "G.Skill Trident Z5 Neo 32GB DDR5-6000 CL30",
+      "short": "Trident Z5 Neo",
+      "judged": "2026-11-19",
+      "tiers": [
+        475,
+        550,
+        625
+      ]
+    },
+    "kingston-fury-beast-32gb-ddr5-6000-cl30": {
+      "name": "Kingston Fury Beast 32GB DDR5-6000 CL30",
+      "short": "Fury Beast",
+      "judged": "2026-11-19",
+      "tiers": [
+        450,
+        525,
+        600
+      ]
+    },
+    "msi-mag-a850gl-pcie5": {
+      "name": "MSI MAG A850GL PCIE5",
+      "short": "MAG A850GL",
+      "judged": "2026-11-19",
+      "tiers": [
+        80,
+        95,
+        110
+      ]
+    },
+    "msi-mag-a850gls-pcie5": {
+      "name": "MSI MAG A850GLS PCIE5",
+      "short": "MAG A850GLS",
+      "judged": "2026-11-19",
+      "tiers": [
+        90,
+        110,
+        130
+      ]
+    },
+    "corsair-rm850x-2024": {
+      "name": "Corsair RM850x (2024)",
+      "short": "RM850x",
+      "judged": "2026-11-19",
+      "tiers": [
+        100,
+        120,
+        140
+      ]
+    },
+    "gigabyte-b850-eagle-wifi6e": {
+      "name": "Gigabyte B850 Eagle WIFI6E",
+      "short": "B850 Eagle",
+      "judged": "2026-11-19",
+      "tiers": [
+        150,
+        175,
+        200
+      ]
+    },
+    "msi-mag-b850-tomahawk-max-wifi": {
+      "name": "MSI MAG B850 Tomahawk Max WiFi",
+      "short": "B850 Tomahawk Max",
+      "judged": "2026-11-19",
+      "tiers": [
+        175,
+        200,
+        230
+      ]
+    },
+    "msi-mag-x870-tomahawk-wifi": {
+      "name": "MSI MAG X870 Tomahawk WiFi",
+      "short": "X870 Tomahawk",
+      "judged": "2026-11-19",
+      "tiers": [
+        200,
+        225,
+        250
+      ]
+    },
+    "lian-li-lancool-216rx": {
+      "name": "Lian Li Lancool 216 RX",
+      "short": "Lancool 216 RX",
+      "judged": "2026-11-19",
+      "tiers": [
+        85,
+        105,
+        125
+      ]
+    },
+    "corsair-4000d-airflow": {
+      "name": "Corsair 4000D Airflow",
+      "short": "4000D Airflow",
+      "judged": "2026-11-19",
+      "tiers": [
+        75,
+        95,
+        115
+      ]
+    },
+    "fractal-design-torrent": {
+      "name": "Fractal Design Torrent",
+      "short": "Torrent",
+      "judged": "2026-11-19",
+      "tiers": [
+        140,
+        170,
+        200
+      ]
     }
   }
 }
