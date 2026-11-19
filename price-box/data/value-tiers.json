@@ -177,6 +177,87 @@
         1299.99,
         1449.99
       ]
+    },
+    "samsung-990-pro-2tb": {
+      "name": "Samsung 990 PRO 2TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        339.99,
+        389.99,
+        429.99
+      ]
+    },
+    "samsung-9100-pro-2tb": {
+      "name": "Samsung 9100 PRO 2TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        349.99,
+        399.99,
+        439.99
+      ]
+    },
+    "samsung-990-evo-plus-2tb": {
+      "name": "Samsung 990 EVO Plus 2TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        319.99,
+        361.99,
+        399.99
+      ]
+    },
+    "minisforum-um890-pro-32gb-1tb": {
+      "name": "Minisforum UM890 Pro 32GB / 1TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        849.99,
+        999.99,
+        1099.99
+      ]
+    },
+    "minisforum-atomman-g1-pro-rtx-5060-32gb-1tb": {
+      "name": "Minisforum AtomMan G1 Pro, RTX 5060",
+      "judged": "2026-11-19",
+      "tiers": [
+        1599.99,
+        1759.99,
+        1899.99
+      ]
+    },
+    "gmktec-evo-x2-64gb-1tb": {
+      "name": "GMKtec EVO-X2 64GB / 1TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        1899.99,
+        2199.99,
+        2399.99
+      ]
+    },
+    "steam-deck-oled-512gb": {
+      "name": "Steam Deck OLED 512GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        649.99,
+        749.99,
+        849.99
+      ]
+    },
+    "steam-deck-oled-1tb": {
+      "name": "Steam Deck OLED 1TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        799.99,
+        899.99,
+        999.99
+      ]
+    },
+    "asus-rog-xbox-ally-x-24gb-1tb": {
+      "name": "ROG Xbox Ally X 24GB / 1TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        849.99,
+        949.99,
+        1049.99
+      ]
     }
   }
 }
