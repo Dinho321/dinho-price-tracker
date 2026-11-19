@@ -258,6 +258,276 @@
         949.99,
         1049.99
       ]
+    },
+    "alienware-aw2726dm": {
+      "name": "Alienware AW2726DM 27-inch QD-OLED 1440p 240 Hz",
+      "short": "Alienware AW2726DM",
+      "judged": "2026-11-19",
+      "tiers": [
+        300,
+        350,
+        450
+      ]
+    },
+    "lg-27gx704a-b": {
+      "name": "LG UltraGear 27GX704A-B 27-inch WOLED 1440p 240 Hz",
+      "short": "LG 27GX704A-B",
+      "judged": "2026-11-19",
+      "tiers": [
+        325,
+        400,
+        500
+      ]
+    },
+    "asus-pg27aqdp": {
+      "name": "ASUS ROG Swift OLED PG27AQDP 27-inch WOLED 1440p 480 Hz",
+      "short": "ASUS PG27AQDP",
+      "judged": "2026-11-19",
+      "tiers": [
+        600,
+        700,
+        850
+      ]
+    },
+    "lg-27g810a-b": {
+      "name": "LG UltraGear 27G810A-B 27-inch 4K IPS 180 Hz",
+      "short": "LG 27G810A-B",
+      "judged": "2026-11-19",
+      "tiers": [
+        350,
+        425,
+        500
+      ]
+    },
+    "gigabyte-mo27u2": {
+      "name": "Gigabyte MO27U2 27-inch 4K QD-OLED 240 Hz",
+      "short": "Gigabyte MO27U2",
+      "judged": "2026-11-19",
+      "tiers": [
+        725,
+        800,
+        900
+      ]
+    },
+    "asus-pg27ucdm": {
+      "name": "ASUS ROG Swift PG27UCDM 27-inch 4K QD-OLED 240 Hz",
+      "short": "ASUS PG27UCDM",
+      "judged": "2026-11-19",
+      "tiers": [
+        800,
+        900,
+        1150
+      ]
+    },
+    "hyperx-cloud-iii-wired": {
+      "name": "HyperX Cloud III (wired)",
+      "short": "HyperX Cloud III",
+      "judged": "2026-11-19",
+      "tiers": [
+        60,
+        80,
+        100
+      ]
+    },
+    "razer-blackshark-v2-x": {
+      "name": "Razer BlackShark V2 X (wired)",
+      "short": "Razer BlackShark V2 X",
+      "judged": "2026-11-19",
+      "tiers": [
+        35,
+        50,
+        65
+      ]
+    },
+    "steelseries-arctis-nova-1": {
+      "name": "SteelSeries Arctis Nova 1 (wired)",
+      "short": "SteelSeries Arctis Nova 1",
+      "judged": "2026-11-19",
+      "tiers": [
+        40,
+        50,
+        65
+      ]
+    },
+    "hyperx-cloud-iii-s-wireless": {
+      "name": "HyperX Cloud III S Wireless",
+      "short": "HyperX Cloud III S",
+      "judged": "2026-11-19",
+      "tiers": [
+        110,
+        130,
+        150
+      ]
+    },
+    "steelseries-arctis-nova-7-wireless-gen-2": {
+      "name": "SteelSeries Arctis Nova 7 Wireless Gen 2",
+      "short": "SteelSeries Arctis Nova 7 Gen 2",
+      "judged": "2026-11-19",
+      "tiers": [
+        140,
+        170,
+        200
+      ]
+    },
+    "logitech-g-pro-x-2-lightspeed": {
+      "name": "Logitech G PRO X 2 LIGHTSPEED",
+      "short": "Logitech G PRO X 2",
+      "judged": "2026-11-19",
+      "tiers": [
+        150,
+        190,
+        230
+      ]
+    },
+    "hyperx-quadcast-2": {
+      "name": "HyperX QuadCast 2 USB microphone",
+      "short": "HyperX QuadCast 2",
+      "judged": "2026-11-19",
+      "tiers": [
+        100,
+        125,
+        150
+      ]
+    },
+    "elgato-wave-3": {
+      "name": "Elgato Wave:3 USB microphone",
+      "short": "Elgato Wave:3",
+      "judged": "2026-11-19",
+      "tiers": [
+        85,
+        105,
+        135
+      ]
+    },
+    "shure-mv7-plus": {
+      "name": "Shure MV7+ USB-C and XLR microphone",
+      "short": "Shure MV7+",
+      "judged": "2026-11-19",
+      "tiers": [
+        225,
+        275,
+        325
+      ]
+    },
+    "tp-link-archer-be3600-pro": {
+      "name": "TP-Link Archer BE3600 Pro Wi-Fi 7 router",
+      "short": "TP-Link Archer BE3600 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        80,
+        110,
+        140
+      ]
+    },
+    "asus-rog-strix-gs-be18000": {
+      "name": "ASUS ROG Strix GS-BE18000 Wi-Fi 7 router",
+      "short": "ASUS ROG Strix GS-BE18000",
+      "judged": "2026-11-19",
+      "tiers": [
+        350,
+        450,
+        550
+      ]
+    },
+    "asus-rog-rapture-gt-be98-pro": {
+      "name": "ASUS ROG Rapture GT-BE98 Pro Wi-Fi 7 router",
+      "short": "ASUS ROG Rapture GT-BE98 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        550,
+        650,
+        750
+      ]
+    },
+    "thrustmaster-t128-xbox-pc": {
+      "name": "Thrustmaster T128 racing wheel with pedals (Xbox and PC)",
+      "short": "Thrustmaster T128",
+      "judged": "2026-11-19",
+      "tiers": [
+        175,
+        200,
+        250
+      ]
+    },
+    "moza-r5-bundle": {
+      "name": "Moza R5 bundle (R5 base, ES wheel, SR-P Lite pedals)",
+      "short": "Moza R5 bundle",
+      "judged": "2026-11-19",
+      "tiers": [
+        375,
+        425,
+        500
+      ]
+    },
+    "logitech-g-pro-wheel-pedals": {
+      "name": "Logitech G PRO racing wheel with PRO pedals",
+      "short": "Logitech G PRO wheel and pedals",
+      "judged": "2026-11-19",
+      "tiers": [
+        1000,
+        1150,
+        1300
+      ]
+    },
+    "branch-ergonomic-chair": {
+      "name": "Branch Ergonomic Chair",
+      "short": "Branch Ergonomic Chair",
+      "judged": "2026-11-19",
+      "tiers": [
+        375,
+        450,
+        525
+      ]
+    },
+    "secretlab-titan-evo-regular": {
+      "name": "Secretlab Titan Evo (Regular)",
+      "short": "Secretlab Titan Evo",
+      "judged": "2026-11-19",
+      "tiers": [
+        400,
+        500,
+        600
+      ]
+    },
+    "steelcase-leap-v2": {
+      "name": "Steelcase Leap V2",
+      "short": "Steelcase Leap V2",
+      "judged": "2026-11-19",
+      "tiers": [
+        1500,
+        1800,
+        2250
+      ]
+    },
+    "secretlab-magnus-pro": {
+      "name": "Secretlab Magnus Pro desk (59.1 in)",
+      "short": "Secretlab Magnus Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        750,
+        925,
+        1050
+      ]
+    },
+    "secretlab-magnus-evo": {
+      "name": "Secretlab Magnus Evo desk (59.2 in)",
+      "short": "Secretlab Magnus Evo",
+      "judged": "2026-11-19",
+      "tiers": [
+        600,
+        700,
+        800
+      ]
+    },
+    "ikea-utespelare": {
+      "name": "IKEA Utespelare gaming desk (63 in)",
+      "short": "IKEA Utespelare",
+      "judged": "2026-11-19",
+      "tiers": [
+        225,
+        300,
+        375
+      ]
     }
   }
 }
