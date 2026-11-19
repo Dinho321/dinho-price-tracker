@@ -1688,6 +1688,136 @@
         1650,
         1850
       ]
+    },
+    "lenovo-legion-pro-5i-16-core-ultra-7-255hx-rtx-5070-16gb-1tb": {
+      "name": "Lenovo Legion Pro 5i 16-inch, Core Ultra 7 255HX, RTX 5070, 16GB / 1TB",
+      "short": "Legion Pro 5i",
+      "judged": "2026-11-19",
+      "tiers": [
+        1700,
+        1850,
+        2000
+      ]
+    },
+    "steelseries-qck-medium": {
+      "name": "SteelSeries QcK Medium mouse pad",
+      "short": "QcK Medium",
+      "judged": "2026-11-19",
+      "tiers": [
+        10,
+        15,
+        20
+      ]
+    },
+    "anker-7-in-1-usb-c-hub": {
+      "name": "Anker 7-in-1 USB-C Hub",
+      "short": "Anker 7-in-1",
+      "judged": "2026-11-19",
+      "tiers": [
+        20,
+        30,
+        40
+      ]
+    },
+    "redragon-kumara-k552-rgb": {
+      "name": "Redragon Kumara K552 RGB keyboard",
+      "short": "Kumara K552",
+      "judged": "2026-11-19",
+      "tiers": [
+        25,
+        35,
+        45
+      ]
+    },
+    "logitech-g335": {
+      "name": "Logitech G335 headset",
+      "short": "G335",
+      "judged": "2026-11-19",
+      "tiers": [
+        45,
+        55,
+        70
+      ]
+    },
+    "microsoft-surface-laptop-ultra-rtx-spark": {
+      "name": "Microsoft Surface Laptop Ultra (RTX Spark)",
+      "short": "Surface Ultra",
+      "judged": "2026-11-19",
+      "tiers": [
+        2200,
+        2400,
+        2600
+      ]
+    },
+    "hp-omnibook-x-14-rtx-spark": {
+      "name": "HP OmniBook X 14 (RTX Spark)",
+      "short": "OmniBook X 14",
+      "judged": "2026-11-19",
+      "tiers": [
+        2500,
+        2750,
+        3000
+      ]
+    },
+    "lenovo-yoga-pro-9n-rtx-spark": {
+      "name": "Lenovo Yoga Pro 9n (RTX Spark)",
+      "short": "Yoga Pro 9n",
+      "judged": "2026-11-19",
+      "tiers": [
+        2500,
+        2750,
+        3000
+      ]
+    },
+    "hp-omnibook-ultra-16-rtx-spark": {
+      "name": "HP OmniBook Ultra 16 (RTX Spark)",
+      "short": "OmniBook Ultra 16",
+      "judged": "2026-11-19",
+      "tiers": [
+        2700,
+        2950,
+        3200
+      ]
+    },
+    "msi-prestige-n16-flip-ai-rtx-spark": {
+      "name": "MSI Prestige N16 Flip AI (RTX Spark)",
+      "short": "Prestige N16",
+      "judged": "2026-11-19",
+      "tiers": [
+        2800,
+        3050,
+        3300
+      ]
+    },
+    "dell-xps-16-rtx-spark": {
+      "name": "Dell XPS 16 (RTX Spark)",
+      "short": "XPS 16",
+      "judged": "2026-11-19",
+      "tiers": [
+        3200,
+        3500,
+        3800
+      ]
+    },
+    "asus-proart-p16-rtx-spark": {
+      "name": "ASUS ProArt P16 (RTX Spark)",
+      "short": "ProArt P16",
+      "judged": "2026-11-19",
+      "tiers": [
+        3800,
+        4150,
+        4500
+      ]
+    },
+    "asus-proart-p14-rtx-spark": {
+      "name": "ASUS ProArt P14 (RTX Spark)",
+      "short": "ProArt P14",
+      "judged": "2026-11-19",
+      "tiers": [
+        5400,
+        5950,
+        6500
+      ]
     }
   }
 }
