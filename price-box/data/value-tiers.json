@@ -89,6 +89,94 @@
         1099.99,
         1199.99
       ]
+    },
+    "hp-victus-15-rtx-3050-r5-7535hs-8gb-512gb": {
+      "name": "HP Victus 15 (15.6 inch), Ryzen 5 7535HS, RTX 3050, 8GB / 512GB",
+      "short": "RTX 3050",
+      "judged": "2026-11-19",
+      "tiers": [
+        649.99,
+        749.99,
+        849.99
+      ]
+    },
+    "lenovo-loq-15-rtx-5050-r5-16gb": {
+      "name": "Lenovo LOQ 15 (15.6 inch), Ryzen 5, RTX 5050, 16GB",
+      "short": "LOQ 15.6 RTX 5050",
+      "judged": "2026-11-19",
+      "tiers": [
+        849.99,
+        949.99,
+        1049.99
+      ]
+    },
+    "lenovo-loq-e-15-rtx-4050-r7-7735hs-16gb-512gb": {
+      "name": "Lenovo LOQ-E 15 (15.6 inch), Ryzen 7 7735HS, RTX 4050, 16GB / 512GB",
+      "short": "LOQ-E RTX 4050",
+      "judged": "2026-11-19",
+      "tiers": [
+        749.99,
+        849.99,
+        949.99
+      ]
+    },
+    "gigabyte-gaming-a16-rtx-4050-i7-13620h-16gb-512gb": {
+      "name": "Gigabyte Gaming A16, Core i7-13620H, RTX 4050, 16GB / 512GB",
+      "short": "Gaming A16",
+      "judged": "2026-11-19",
+      "tiers": [
+        799.99,
+        899.99,
+        999.99
+      ]
+    },
+    "alienware-15-rtx-4050-core7-240h-16gb-512gb": {
+      "name": "Alienware 15 (15.3 inch), Core 7 240H, RTX 4050 6GB, 16GB / 512GB",
+      "short": "Alienware 15",
+      "judged": "2026-11-19",
+      "tiers": [
+        799.99,
+        899.99,
+        999.99
+      ]
+    },
+    "acer-nitro-v-16-rtx-5050-core7-240h-16gb-512gb": {
+      "name": "Acer Nitro V 16, Core 7 240H, RTX 5050, 16GB / 512GB",
+      "short": "Nitro V 16 RTX 5050",
+      "judged": "2026-11-19",
+      "tiers": [
+        1049.99,
+        1149.99,
+        1249.99
+      ]
+    },
+    "lenovo-legion-5a-15-rtx-5060-r7-250-16gb-512gb": {
+      "name": "Lenovo Legion 5a (15.3 inch), Ryzen 7 250, RTX 5060, 16GB / 512GB",
+      "short": "Legion 5a",
+      "judged": "2026-11-19",
+      "tiers": [
+        1199.99,
+        1299.99,
+        1449.99
+      ]
+    },
+    "asus-tuf-gaming-f16-fx608jhr-es73-rtx-5050-16gb-512gb": {
+      "name": "ASUS TUF Gaming F16 (FX608JHR-ES73), Core i7-14650HX, RTX 5050, 16GB / 512GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        1049.99,
+        1149.99,
+        1249.99
+      ]
+    },
+    "acer-nitro-v-16s-ai-anv16s-41-r2aj-rtx-5060-32gb-1tb": {
+      "name": "Acer Nitro V 16S AI (ANV16S-41-R2AJ), Ryzen 7 260, RTX 5060, 32GB / 1TB",
+      "judged": "2026-11-19",
+      "tiers": [
+        1199.99,
+        1299.99,
+        1449.99
+      ]
     }
   }
 }
