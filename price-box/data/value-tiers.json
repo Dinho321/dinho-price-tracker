@@ -1,0 +1,10 @@
+{
+  "note": "Value tiers per model: upper limits of strong, good and fair value in US dollars; weak is above the last limit. Edited by hand when we re-judge a model. EXAMPLE numbers for the first test are a proposal awaiting owner approval.",
+  "products": {
+    "lenovo-loq-15irx10-rtx-5050-16gb-1tb": {
+      "name": "Lenovo LOQ 15IRX10 (83JE0012US), RTX 5050, 16GB / 1TB",
+      "judged": "2026-11-19",
+      "tiers": [949.99, 1049.99, 1149.99]
+    }
+  }
+}
