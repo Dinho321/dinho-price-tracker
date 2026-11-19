@@ -1578,6 +1578,86 @@
         170,
         200
       ]
+    },
+    "steam-deck-oled-512gb-refurbished": {
+      "name": "Steam Deck OLED 512GB (certified refurbished)",
+      "short": "Deck 512GB refurb",
+      "judged": "2026-11-19",
+      "tiers": [
+        500,
+        575,
+        650
+      ]
+    },
+    "steam-deck-oled-1tb-refurbished": {
+      "name": "Steam Deck OLED 1TB (certified refurbished)",
+      "short": "Deck 1TB refurb",
+      "judged": "2026-11-19",
+      "tiers": [
+        600,
+        700,
+        800
+      ]
+    },
+    "acer-aspire-go-15-8gb-512gb": {
+      "name": "Acer Aspire Go 15 (8GB, 512GB)",
+      "short": "Aspire Go 15",
+      "judged": "2026-11-19",
+      "tiers": [
+        380,
+        440,
+        500
+      ]
+    },
+    "hytale-parts-build-ryzen-5-5500-16gb-rx-550": {
+      "name": "Hytale parts build (Ryzen 5 5500, 16GB, RX 550)",
+      "short": "Hytale build",
+      "judged": "2026-11-19",
+      "tiers": [
+        550,
+        625,
+        700
+      ]
+    },
+    "cyberpowerpc-gamer-xtreme-rtx-5060-32gb-2tb": {
+      "name": "CyberPowerPC Gamer Xtreme (RTX 5060, 32GB, 2TB)",
+      "short": "Gamer Xtreme",
+      "judged": "2026-11-19",
+      "tiers": [
+        1000,
+        1150,
+        1300
+      ]
+    },
+    "asus-rog-g700-rtx-5070-32gb-2tb": {
+      "name": "ASUS ROG G700 (RTX 5070, 32GB, 2TB)",
+      "short": "ROG G700",
+      "judged": "2026-11-19",
+      "tiers": [
+        1500,
+        1700,
+        1900
+      ]
+    },
+    "corsair-vengeance-a7500-9800x3d-rtx-5070-ti-2tb": {
+      "name": "Corsair Vengeance a7500 (9800X3D, RTX 5070 Ti, 2TB)",
+      "short": "Vengeance a7500",
+      "judged": "2026-11-19",
+      "tiers": [
+        2250,
+        2500,
+        2750
+      ]
+    },
+    "budget-build-rtx-5060-ti-8gb": {
+      "name": "Budget build with RTX 5060 Ti 8GB",
+      "short": "5060 Ti build",
+      "judged": "2026-11-19",
+      "tiers": [
+        1000,
+        1150,
+        1300
+      ]
     }
   }
 }
