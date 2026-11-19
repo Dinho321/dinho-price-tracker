@@ -528,6 +528,596 @@
         300,
         375
       ]
+    },
+    "perixx-periboard-512": {
+      "name": "Perixx PERIBOARD-512",
+      "short": "Periboard-512",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        50
+      ]
+    },
+    "logitech-wave-keys": {
+      "name": "Logitech Wave Keys",
+      "short": "Wave Keys",
+      "judged": "2026-11-19",
+      "tiers": [
+        45,
+        55,
+        70
+      ]
+    },
+    "logitech-ergo-k860": {
+      "name": "Logitech ERGO K860",
+      "short": "ERGO K860",
+      "judged": "2026-11-19",
+      "tiers": [
+        90,
+        110,
+        130
+      ]
+    },
+    "zsa-voyager": {
+      "name": "ZSA Voyager",
+      "short": "Voyager",
+      "judged": "2026-11-19",
+      "tiers": [
+        300,
+        350,
+        400
+      ]
+    },
+    "kinesis-advantage360-pro": {
+      "name": "Kinesis Advantage360 Professional",
+      "short": "Advantage360 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        400,
+        475,
+        550
+      ]
+    },
+    "logitech-g305": {
+      "name": "Logitech G305",
+      "short": "G305",
+      "judged": "2026-11-19",
+      "tiers": [
+        25,
+        30,
+        40
+      ]
+    },
+    "hyperx-pulsefire-haste-2-wireless": {
+      "name": "HyperX Pulsefire Haste 2 Wireless",
+      "short": "Haste 2 Wireless",
+      "judged": "2026-11-19",
+      "tiers": [
+        65,
+        80,
+        90
+      ]
+    },
+    "benq-zowie-ec2-cw": {
+      "name": "BenQ Zowie EC2-CW",
+      "short": "Zowie EC2-CW",
+      "judged": "2026-11-19",
+      "tiers": [
+        110,
+        135,
+        160
+      ]
+    },
+    "razer-viper-v3-pro": {
+      "name": "Razer Viper V3 Pro",
+      "short": "Viper V3 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        110,
+        130,
+        160
+      ]
+    },
+    "logitech-g-pro-x-superlight-2": {
+      "name": "Logitech G Pro X Superlight 2",
+      "short": "Superlight 2",
+      "judged": "2026-11-19",
+      "tiers": [
+        125,
+        150,
+        180
+      ]
+    },
+    "msi-pro-mp243l": {
+      "name": "MSI Pro MP243L",
+      "short": "MP243L",
+      "judged": "2026-11-19",
+      "tiers": [
+        70,
+        90,
+        110
+      ]
+    },
+    "acer-nitro-kgb271u": {
+      "name": "Acer Nitro KGB271U",
+      "short": "Nitro KGB271U",
+      "judged": "2026-11-19",
+      "tiers": [
+        120,
+        150,
+        180
+      ]
+    },
+    "lg-ultragear-g6-27-1440p-300hz": {
+      "name": "LG UltraGear G6 (27-inch, 1440p, 300Hz)",
+      "short": "UltraGear G6",
+      "judged": "2026-11-19",
+      "tiers": [
+        175,
+        225,
+        300
+      ]
+    },
+    "acer-nitro-vg277u-xbiip": {
+      "name": "Acer Nitro VG277U Xbiip",
+      "short": "Nitro VG277U",
+      "judged": "2026-11-19",
+      "tiers": [
+        240,
+        290,
+        350
+      ]
+    },
+    "mchose-g3-v2-pro": {
+      "name": "Mchose G3 V2 Pro",
+      "short": "G3 V2 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        55
+      ]
+    },
+    "corsair-m75-wireless": {
+      "name": "Corsair M75 Wireless",
+      "short": "M75 Wireless",
+      "judged": "2026-11-19",
+      "tiers": [
+        90,
+        125,
+        160
+      ]
+    },
+    "corsair-sabre-v2-pro-ultralight": {
+      "name": "Corsair Sabre V2 Pro Ultralight",
+      "short": "Sabre V2 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        60,
+        80,
+        100
+      ]
+    },
+    "razer-viper-v4-pro": {
+      "name": "Razer Viper V4 Pro",
+      "short": "Viper V4 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        130,
+        160,
+        180
+      ]
+    },
+    "razer-deathadder-v4-pro": {
+      "name": "Razer DeathAdder V4 Pro",
+      "short": "DeathAdder V4 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        125,
+        150,
+        180
+      ]
+    },
+    "logitech-g-pro-x2-superstrike": {
+      "name": "Logitech G Pro X2 Superstrike",
+      "short": "Superstrike",
+      "judged": "2026-11-19",
+      "tiers": [
+        150,
+        180,
+        200
+      ]
+    },
+    "newmen-gm326": {
+      "name": "Newmen GM326",
+      "short": "GM326",
+      "judged": "2026-11-19",
+      "tiers": [
+        20,
+        30,
+        40
+      ]
+    },
+    "havit-kb487l": {
+      "name": "Havit KB487L",
+      "short": "KB487L",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        55
+      ]
+    },
+    "royal-kludge-r65": {
+      "name": "Royal Kludge R65",
+      "short": "RK R65",
+      "judged": "2026-11-19",
+      "tiers": [
+        40,
+        55,
+        70
+      ]
+    },
+    "ajazz-ak820-pro": {
+      "name": "Ajazz AK820 Pro",
+      "short": "AK820 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        45,
+        60,
+        75
+      ]
+    },
+    "corsair-clipper-pro-mini-60": {
+      "name": "Corsair Clipper Pro Mini 60",
+      "short": "Clipper Pro Mini 60",
+      "judged": "2026-11-19",
+      "tiers": [
+        80,
+        100,
+        120
+      ]
+    },
+    "corsair-vanguard-pro-96": {
+      "name": "Corsair Vanguard Pro 96",
+      "short": "Vanguard Pro 96",
+      "judged": "2026-11-19",
+      "tiers": [
+        150,
+        180,
+        230
+      ]
+    },
+    "steelseries-qck-performance-l": {
+      "name": "SteelSeries QcK Performance L",
+      "short": "QcK Performance L",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        50
+      ]
+    },
+    "razer-firefly-v2-pro": {
+      "name": "Razer Firefly V2 Pro",
+      "short": "Firefly V2 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        75,
+        100,
+        125
+      ]
+    },
+    "corsair-mm100": {
+      "name": "Corsair MM100",
+      "short": "MM100",
+      "judged": "2026-11-19",
+      "tiers": [
+        10,
+        15,
+        20
+      ]
+    },
+    "logitech-g440": {
+      "name": "Logitech G440",
+      "short": "G440",
+      "judged": "2026-11-19",
+      "tiers": [
+        15,
+        20,
+        30
+      ]
+    },
+    "corsair-mm350-pro-extended-xl": {
+      "name": "Corsair MM350 Pro Extended XL",
+      "short": "MM350 Pro XL",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        55
+      ]
+    },
+    "qpad-obsidian-glass": {
+      "name": "QPAD Obsidian Glass",
+      "short": "Obsidian Glass",
+      "judged": "2026-11-19",
+      "tiers": [
+        80,
+        100,
+        125
+      ]
+    },
+    "logitech-g203-lightsync": {
+      "name": "Logitech G203 Lightsync",
+      "short": "G203 Lightsync",
+      "judged": "2026-11-19",
+      "tiers": [
+        20,
+        30,
+        40
+      ]
+    },
+    "logitech-brio-100": {
+      "name": "Logitech Brio 100",
+      "short": "Brio 100",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        50
+      ]
+    },
+    "logitech-c920s": {
+      "name": "Logitech C920s HD Pro",
+      "short": "C920s",
+      "judged": "2026-11-19",
+      "tiers": [
+        45,
+        55,
+        70
+      ]
+    },
+    "anker-powerconf-c200": {
+      "name": "Anker PowerConf C200",
+      "short": "PowerConf C200",
+      "judged": "2026-11-19",
+      "tiers": [
+        55,
+        70,
+        90
+      ]
+    },
+    "logitech-streamcam-plus": {
+      "name": "Logitech StreamCam Plus",
+      "short": "StreamCam Plus",
+      "judged": "2026-11-19",
+      "tiers": [
+        75,
+        90,
+        110
+      ]
+    },
+    "elgato-4k-s": {
+      "name": "Elgato 4K S",
+      "short": "4K S",
+      "judged": "2026-11-19",
+      "tiers": [
+        130,
+        160,
+        190
+      ]
+    },
+    "elgato-hd60-x": {
+      "name": "Elgato HD60 X",
+      "short": "HD60 X",
+      "judged": "2026-11-19",
+      "tiers": [
+        125,
+        150,
+        190
+      ]
+    },
+    "elgato-game-capture-neo": {
+      "name": "Elgato Game Capture Neo",
+      "short": "Capture Neo",
+      "judged": "2026-11-19",
+      "tiers": [
+        100,
+        130,
+        160
+      ]
+    },
+    "pyle-pvrc46": {
+      "name": "Pyle PVRC46",
+      "short": "PVRC46",
+      "judged": "2026-11-19",
+      "tiers": [
+        35,
+        45,
+        55
+      ]
+    },
+    "8bitdo-ultimate-2-4g": {
+      "name": "8BitDo Ultimate 2.4G",
+      "short": "Ultimate 2.4G",
+      "judged": "2026-11-19",
+      "tiers": [
+        35,
+        50,
+        65
+      ]
+    },
+    "gamesir-nova-lite": {
+      "name": "GameSir Nova Lite",
+      "short": "Nova Lite",
+      "judged": "2026-11-19",
+      "tiers": [
+        20,
+        25,
+        35
+      ]
+    },
+    "8bitdo-ultimate-2c": {
+      "name": "8BitDo Ultimate 2C",
+      "short": "Ultimate 2C",
+      "judged": "2026-11-19",
+      "tiers": [
+        25,
+        30,
+        40
+      ]
+    },
+    "xbox-wireless-controller": {
+      "name": "Xbox Wireless Controller",
+      "short": "Xbox Wireless",
+      "judged": "2026-11-19",
+      "tiers": [
+        35,
+        50,
+        65
+      ]
+    },
+    "sandisk-extreme-512gb-microsd": {
+      "name": "SanDisk Extreme 512GB microSD",
+      "short": "Extreme 512GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        45,
+        55
+      ]
+    },
+    "jsaux-6-in-1-dock-hb0603": {
+      "name": "JSAUX 6-in-1 Dock (HB0603)",
+      "short": "JSAUX Dock",
+      "judged": "2026-11-19",
+      "tiers": [
+        40,
+        50,
+        60
+      ]
+    },
+    "jsaux-modcase-pc0104": {
+      "name": "JSAUX ModCase (PC0104)",
+      "short": "ModCase",
+      "judged": "2026-11-19",
+      "tiers": [
+        15,
+        25,
+        35
+      ]
+    },
+    "jsaux-obsidian-ar-2-pack": {
+      "name": "JSAUX Obsidian AR screen protector, 2-pack",
+      "short": "Obsidian AR 2-pack",
+      "judged": "2026-11-19",
+      "tiers": [
+        10,
+        15,
+        25
+      ]
+    },
+    "baseus-6-in-1-dock": {
+      "name": "Baseus 6-in-1 adjustable dock",
+      "short": "Baseus Dock",
+      "judged": "2026-11-19",
+      "tiers": [
+        25,
+        30,
+        45
+      ]
+    },
+    "antank-20000mah-45w": {
+      "name": "Antank 20,000mAh 45W detachable power bank",
+      "short": "Antank 20K",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        40,
+        55
+      ]
+    },
+    "elecjet-powerpie-20000mah-45w": {
+      "name": "Elecjet PowerPie 20,000mAh 45W",
+      "short": "PowerPie 20K",
+      "judged": "2026-11-19",
+      "tiers": [
+        35,
+        45,
+        60
+      ]
+    },
+    "sandisk-microsd-express-256gb": {
+      "name": "SanDisk microSD Express 256GB",
+      "short": "SanDisk Express 256GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        40,
+        50,
+        65
+      ]
+    },
+    "samsung-p9-express-256gb": {
+      "name": "Samsung P9 Express 256GB",
+      "short": "P9 Express 256GB",
+      "judged": "2026-11-19",
+      "tiers": [
+        35,
+        50,
+        60
+      ]
+    },
+    "8bitdo-ultimate-2": {
+      "name": "8BitDo Ultimate 2",
+      "short": "Ultimate 2",
+      "judged": "2026-11-19",
+      "tiers": [
+        55,
+        65,
+        75
+      ]
+    },
+    "nintendo-switch-2-pro-controller": {
+      "name": "Switch 2 Pro Controller",
+      "short": "Switch 2 Pro",
+      "judged": "2026-11-19",
+      "tiers": [
+        60,
+        75,
+        90
+      ]
+    },
+    "belkin-charging-case-switch-2": {
+      "name": "Belkin Charging Case",
+      "short": "Belkin Case",
+      "judged": "2026-11-19",
+      "tiers": [
+        45,
+        55,
+        75
+      ]
+    },
+    "ugreen-nexode-20k-45w": {
+      "name": "Ugreen Nexode 20K 45W",
+      "short": "Nexode 20K",
+      "judged": "2026-11-19",
+      "tiers": [
+        20,
+        30,
+        45
+      ]
+    },
+    "anker-zolo-10k-30w": {
+      "name": "Anker Zolo 10K 30W",
+      "short": "Zolo 10K",
+      "judged": "2026-11-19",
+      "tiers": [
+        30,
+        35,
+        45
+      ]
     }
   }
 }
