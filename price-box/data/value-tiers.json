@@ -1818,6 +1818,26 @@
         5950,
         6500
       ]
+    },
+    "dell-xps-13-2026-core-5-320-16gb-512gb": {
+      "name": "Dell XPS 13 (2026), Intel Core 5 320, 16GB / 512GB",
+      "short": "XPS 13 16/512",
+      "judged": "2026-11-20",
+      "tiers": [
+        799,
+        849,
+        899
+      ]
+    },
+    "lenovo-yoga-slim-7x-gen-11-snapdragon-x2-plus-16gb-512gb": {
+      "name": "Lenovo Yoga Slim 7x Gen 11 (14 inch OLED), Snapdragon X2 Plus, 16GB / 512GB",
+      "short": "Yoga Slim 7x 16/512",
+      "judged": "2026-11-20",
+      "tiers": [
+        749,
+        849,
+        999
+      ]
     }
   }
 }
