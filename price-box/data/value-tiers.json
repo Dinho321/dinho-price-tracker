@@ -1848,6 +1848,16 @@
         1900,
         2100
       ]
+    },
+    "intel-arc-b580-12gb": {
+      "name": "Intel Arc B580 12GB",
+      "short": "Arc B580 12GB",
+      "judged": "2026-11-21",
+      "tiers": [
+        275,
+        325,
+        375
+      ]
     }
   }
 }
