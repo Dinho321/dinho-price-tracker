@@ -12,7 +12,7 @@
     },
     "apple-macbook-neo-a18-pro-8gb-256gb": {
       "name": "Apple MacBook Neo, A18 Pro, 8GB / 256GB",
-      "short": "8GB / 256GB",
+      "short": "MacBook Neo 8/256",
       "judged": "2026-11-19",
       "tiers": [
         699,
@@ -22,7 +22,7 @@
     },
     "apple-macbook-air-13-m5-16gb-512gb": {
       "name": "Apple MacBook Air 13 inch, M5, 16GB / 512GB",
-      "short": "16GB / 512GB",
+      "short": "Air 13-inch 16/512",
       "judged": "2026-11-19",
       "tiers": [
         1099,
@@ -32,7 +32,7 @@
     },
     "apple-macbook-air-13-m5-16gb-1tb": {
       "name": "Apple MacBook Air 13 inch, M5, 16GB / 1TB",
-      "short": "16GB / 1TB",
+      "short": "Air 13-inch 16/1TB",
       "judged": "2026-11-19",
       "tiers": [
         1349,
@@ -42,7 +42,7 @@
     },
     "apple-macbook-air-13-m5-24gb-1tb": {
       "name": "Apple MacBook Air 13 inch, M5, 24GB / 1TB",
-      "short": "24GB / 1TB",
+      "short": "Air 13-inch 24/1TB",
       "judged": "2026-11-19",
       "tiers": [
         1549,
@@ -52,7 +52,7 @@
     },
     "asus-zenbook-a14-snapdragon-x-plus-16gb-512gb": {
       "name": "ASUS Zenbook A14 (14 inch OLED), Snapdragon X Plus, 16GB / 512GB",
-      "short": "16GB / 512GB",
+      "short": "Zenbook A14 16/512",
       "judged": "2026-11-19",
       "tiers": [
         799.99,
@@ -82,7 +82,7 @@
     },
     "lenovo-loq-15ahp11-rtx-5060-r7-250-16gb-512gb": {
       "name": "Lenovo LOQ 15AHP11 (15.3 inch), Ryzen 7 250, RTX 5060, 16GB / 512GB",
-      "short": "16GB / 512GB",
+      "short": "LOQ 15.3 RTX 5060 16/512",
       "judged": "2026-11-19",
       "tiers": [
         999.99,
