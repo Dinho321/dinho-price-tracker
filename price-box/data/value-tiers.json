@@ -102,7 +102,7 @@
     },
     "lenovo-loq-15-rtx-5050-r5-16gb": {
       "name": "Lenovo LOQ 15 (15.6 inch), Ryzen 5, RTX 5050, 16GB",
-      "short": "LOQ 15.6 RTX 5050 16GB",
+      "short": "LOQ 15.6 RTX 5050 16/512",
       "judged": "2026-11-19",
       "tiers": [
         849.99,
