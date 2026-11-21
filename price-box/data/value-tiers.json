@@ -62,7 +62,7 @@
     },
     "lenovo-legion-5-15-oled-rtx-5060-16gb-512gb": {
       "name": "Lenovo Legion 5 15.1\" OLED, Ryzen 7 260, RTX 5060, 16GB / 512GB",
-      "short": "Legion 5",
+      "short": "Legion 5 16/512",
       "judged": "2026-11-19",
       "tiers": [
         1299.99,
@@ -92,7 +92,7 @@
     },
     "hp-victus-15-rtx-3050-r5-7535hs-8gb-512gb": {
       "name": "HP Victus 15 (15.6 inch), Ryzen 5 7535HS, RTX 3050, 8GB / 512GB",
-      "short": "RTX 3050",
+      "short": "Victus 15 RTX 3050 8/512",
       "judged": "2026-11-19",
       "tiers": [
         649.99,
@@ -102,7 +102,7 @@
     },
     "lenovo-loq-15-rtx-5050-r5-16gb": {
       "name": "Lenovo LOQ 15 (15.6 inch), Ryzen 5, RTX 5050, 16GB",
-      "short": "LOQ 15.6 RTX 5050",
+      "short": "LOQ 15.6 RTX 5050 16GB",
       "judged": "2026-11-19",
       "tiers": [
         849.99,
@@ -112,7 +112,7 @@
     },
     "lenovo-loq-e-15-rtx-4050-r7-7735hs-16gb-512gb": {
       "name": "Lenovo LOQ-E 15 (15.6 inch), Ryzen 7 7735HS, RTX 4050, 16GB / 512GB",
-      "short": "LOQ-E RTX 4050",
+      "short": "LOQ Essential RTX 4050 16/512",
       "judged": "2026-11-19",
       "tiers": [
         749.99,
@@ -122,7 +122,7 @@
     },
     "gigabyte-gaming-a16-rtx-4050-i7-13620h-16gb-512gb": {
       "name": "Gigabyte Gaming A16, Core i7-13620H, RTX 4050, 16GB / 512GB",
-      "short": "Gaming A16",
+      "short": "Gaming A16 RTX 4050 16/512",
       "judged": "2026-11-19",
       "tiers": [
         799.99,
@@ -132,7 +132,7 @@
     },
     "alienware-15-rtx-4050-core7-240h-16gb-512gb": {
       "name": "Alienware 15 (15.3 inch), Core 7 240H, RTX 4050 6GB, 16GB / 512GB",
-      "short": "Alienware 15",
+      "short": "Alienware 15 RTX 4050 16/512",
       "judged": "2026-11-19",
       "tiers": [
         799.99,
@@ -142,7 +142,7 @@
     },
     "acer-nitro-v-16-rtx-5050-core7-240h-16gb-512gb": {
       "name": "Acer Nitro V 16, Core 7 240H, RTX 5050, 16GB / 512GB",
-      "short": "Nitro V 16 RTX 5050",
+      "short": "Nitro V 16 RTX 5050 16/512",
       "judged": "2026-11-19",
       "tiers": [
         1049.99,
@@ -152,7 +152,7 @@
     },
     "lenovo-legion-5a-15-rtx-5060-r7-250-16gb-512gb": {
       "name": "Lenovo Legion 5a (15.3 inch), Ryzen 7 250, RTX 5060, 16GB / 512GB",
-      "short": "Legion 5a",
+      "short": "Legion 5a 16/512",
       "judged": "2026-11-19",
       "tiers": [
         1199.99,
@@ -1161,7 +1161,7 @@
     },
     "lenovo-ideapad-slim-3i-15-3-core-7-350-16gb-512gb": {
       "name": "Lenovo IdeaPad Slim 3i 15.3-inch, Core 7 350, 16GB / 512GB",
-      "short": "IdeaPad Slim 3i",
+      "short": "IdeaPad Slim 3i 16/512",
       "judged": "2026-11-19",
       "tiers": [
         600,
@@ -1201,7 +1201,7 @@
     },
     "acer-nitro-v-16-rtx-5060-core7-240h-16gb-512gb": {
       "name": "Acer Nitro V 16, RTX 5060, Core 7 240H, 16GB / 512GB",
-      "short": "Nitro V 16 RTX 5060",
+      "short": "Nitro V 16 RTX 5060 16/512",
       "judged": "2026-11-19",
       "tiers": [
         1100,
