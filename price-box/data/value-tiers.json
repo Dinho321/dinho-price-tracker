@@ -1838,6 +1838,16 @@
         849,
         999
       ]
+    },
+    "lenovo-thinkpad-t14-gen-6-amd-ryzen-ai-7-pro-350-32gb-512gb": {
+      "name": "Lenovo ThinkPad T14 Gen 6 AMD (21QJ00CTUS), Ryzen AI 7 PRO 350, 32GB / 512GB",
+      "short": "ThinkPad T14 Gen 6 AMD, 32GB / 512GB",
+      "judged": "2026-11-21",
+      "tiers": [
+        1700,
+        1900,
+        2100
+      ]
     }
   }
 }
