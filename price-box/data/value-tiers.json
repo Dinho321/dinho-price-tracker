@@ -1411,7 +1411,7 @@
     },
     "asus-rog-xbox-ally-16gb-512gb": {
       "name": "ASUS ROG Xbox Ally 16GB / 512GB",
-      "short": "ROG Xbox Ally",
+      "short": "ROG Xbox Ally 16GB / 512GB",
       "judged": "2026-11-19",
       "tiers": [
         500,
@@ -1421,7 +1421,7 @@
     },
     "lenovo-legion-go-s-steamos-32gb-1tb": {
       "name": "Lenovo Legion Go S (SteamOS) 32GB / 1TB",
-      "short": "Legion Go S",
+      "short": "Legion Go S 32GB / 1TB",
       "judged": "2026-11-19",
       "tiers": [
         650,
